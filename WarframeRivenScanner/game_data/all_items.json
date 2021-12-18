@@ -1,0 +1,3556 @@
+{
+  "payload": {
+    "items": [
+      {
+        "group": "secondary",
+        "item_name": "Kulstar",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdcc",
+        "url_name": "kulstar",
+        "icon": "icons/en/kulstar.92736ca911a3b84f99bc9e50f24369f0.png",
+        "thumb": "icons/en/thumbs/kulstar.92736ca911a3b84f99bc9e50f24369f0.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Heliocor",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1d",
+        "url_name": "heliocor",
+        "icon": "icons/en/heliocor.49fc1b3f6c4e4a550a15ad7c96885195.png",
+        "thumb": "icons/en/thumbs/heliocor.49fc1b3f6c4e4a550a15ad7c96885195.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Nagantaka",
+        "riven_type": "rifle",
+        "id": "5cf5724d9597e1019b1678c5",
+        "url_name": "nagantaka",
+        "icon": "icons/en/nagantaka.4ee86a7c5a800796a22e94e584577628.png",
+        "thumb": "icons/en/thumbs/nagantaka.4ee86a7c5a800796a22e94e584577628.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Ocucor",
+        "riven_type": "pistol",
+        "id": "5cf5724e9597e1019b1678c6",
+        "url_name": "ocucor",
+        "icon": "icons/en/ocucor.c3f776ad9924de2782e8c0d36be4e5b4.png",
+        "thumb": "icons/en/thumbs/ocucor.c3f776ad9924de2782e8c0d36be4e5b4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Falcor",
+        "riven_type": "melee",
+        "id": "5cf5724f9597e1019b1678c7",
+        "url_name": "falcor",
+        "icon": "icons/en/falcor.83897b2d4fbcbd312c70be4e25ea3b92.png",
+        "thumb": "icons/en/thumbs/falcor.83897b2d4fbcbd312c70be4e25ea3b92.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Paracesis",
+        "riven_type": "melee",
+        "id": "5cf572509597e1019b1678c8",
+        "url_name": "paracesis",
+        "icon": "icons/en/paracesis.bdc3b22813168a460ed1b82fc33c3139.png",
+        "thumb": "icons/en/thumbs/paracesis.bdc3b22813168a460ed1b82fc33c3139.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Exergis",
+        "riven_type": "shotgun",
+        "id": "5cf572529597e1019b1678ca",
+        "url_name": "exergis",
+        "icon": "icons/en/exergis.c9432d140c7138d21b9c275ba54eeecc.png",
+        "thumb": "icons/en/thumbs/exergis.c9432d140c7138d21b9c275ba54eeecc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Battacor",
+        "riven_type": "rifle",
+        "id": "5cf572549597e1019b1678cf",
+        "url_name": "battacor",
+        "icon": "icons/en/battacor.141ff25ce24ea93a83a523dda7e94011.png",
+        "thumb": "icons/en/thumbs/battacor.141ff25ce24ea93a83a523dda7e94011.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Euphona Prime",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdc3",
+        "url_name": "euphona_prime",
+        "icon": "icons/en/euphona_prime.6a18cc50c57ac13c3203e872baf85a8d.png",
+        "thumb": "icons/en/thumbs/euphona_prime.6a18cc50c57ac13c3203e872baf85a8d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Fusilai",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc5",
+        "url_name": "fusilai",
+        "icon": "icons/en/fusilai.dfe658fc2b5297fc495fd28be23ffd70.png",
+        "thumb": "icons/en/thumbs/fusilai.dfe658fc2b5297fc495fd28be23ffd70.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Lato",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdce",
+        "url_name": "lato",
+        "icon": "icons/en/lato.75f74069daf8fed3d9397afe96a976a0.png",
+        "thumb": "icons/en/thumbs/lato.75f74069daf8fed3d9397afe96a976a0.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Magnus",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd0",
+        "url_name": "magnus",
+        "icon": "icons/en/magnus.25f6050dc34973f444d1c6ea54487d5e.png",
+        "thumb": "icons/en/thumbs/magnus.25f6050dc34973f444d1c6ea54487d5e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ack & Brunt",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fde9",
+        "url_name": "ack_and_brunt",
+        "icon": "icons/en/ack_and_brunt.f5852c315691d80106e0ba42fb82f668.png",
+        "thumb": "icons/en/thumbs/ack_and_brunt.f5852c315691d80106e0ba42fb82f668.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Amphis",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdea",
+        "url_name": "amphis",
+        "icon": "icons/en/amphis.6ba40d253046114ead767591eb74d88b.png",
+        "thumb": "icons/en/thumbs/amphis.6ba40d253046114ead767591eb74d88b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Anku",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdeb",
+        "url_name": "anku",
+        "icon": "icons/en/anku.a7e5df1e6b599334e2fe014f14062cf0.png",
+        "thumb": "icons/en/thumbs/anku.a7e5df1e6b599334e2fe014f14062cf0.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Arca Titron",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fded",
+        "url_name": "arca_titron",
+        "icon": "icons/en/arca_titron.bd711749b9917222c85fea4b60376d45.png",
+        "thumb": "icons/en/thumbs/arca_titron.bd711749b9917222c85fea4b60376d45.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Balla",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fdef",
+        "url_name": "balla",
+        "icon": "icons/en/balla.9e49720865f76d3a6b591ad2712a3afb.png",
+        "thumb": "icons/en/thumbs/balla.9e49720865f76d3a6b591ad2712a3afb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Boltace",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf1",
+        "url_name": "boltace",
+        "icon": "icons/en/boltace.79a692a1f7d1f9b1251de0719403ab1f.png",
+        "thumb": "icons/en/thumbs/boltace.79a692a1f7d1f9b1251de0719403ab1f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Broken War",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf3",
+        "url_name": "broken_war",
+        "icon": "icons/en/broken_war.79aea5cde8a32f0cdb77bc19b5d1e9a5.png",
+        "thumb": "icons/en/thumbs/broken_war.79aea5cde8a32f0cdb77bc19b5d1e9a5.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Caustacyst",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf5",
+        "url_name": "caustacyst",
+        "icon": "icons/en/caustacyst.1fb1dcd615381cbf7823f0471311c1fe.png",
+        "thumb": "icons/en/thumbs/caustacyst.1fb1dcd615381cbf7823f0471311c1fe.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Cerata",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf7",
+        "url_name": "cerata",
+        "icon": "icons/en/cerata.a844799b207aaddaa4d4542bbffaee71.png",
+        "thumb": "icons/en/thumbs/cerata.a844799b207aaddaa4d4542bbffaee71.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Hate",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1a",
+        "url_name": "hate",
+        "icon": "icons/en/hate.1e4354f5dbd630a1809478ea19ca740d.png",
+        "thumb": "icons/en/thumbs/hate.1e4354f5dbd630a1809478ea19ca740d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Soma",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd95",
+        "url_name": "soma",
+        "icon": "icons/en/soma.cdaf834f3db92d51d4452ce8f9aee19c.png",
+        "thumb": "icons/en/thumbs/soma.cdaf834f3db92d51d4452ce8f9aee19c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Synapse",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd9a",
+        "url_name": "synapse",
+        "icon": "icons/en/synapse.8f3428d652e080644e9a3028081f4acd.png",
+        "thumb": "icons/en/thumbs/synapse.8f3428d652e080644e9a3028081f4acd.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tigris",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd9e",
+        "url_name": "tigris",
+        "icon": "icons/en/tigris.7ce83c14bb12c7baee7429c095e54374.png",
+        "thumb": "icons/en/thumbs/tigris.7ce83c14bb12c7baee7429c095e54374.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tonkor",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd9f",
+        "url_name": "tonkor",
+        "icon": "icons/en/tonkor.18f437094ffdd53edc96e46d72eb7b59.png",
+        "thumb": "icons/en/thumbs/tonkor.18f437094ffdd53edc96e46d72eb7b59.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Torid",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda0",
+        "url_name": "torid",
+        "icon": "icons/en/torid.44456f26160f4ece65656c524c4692fe.png",
+        "thumb": "icons/en/thumbs/torid.44456f26160f4ece65656c524c4692fe.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Vectis",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda1",
+        "url_name": "vectis",
+        "icon": "icons/en/vectis.439c24184ddd098ca33ba897be1b3fa9.png",
+        "thumb": "icons/en/thumbs/vectis.439c24184ddd098ca33ba897be1b3fa9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Veldt",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda2",
+        "url_name": "veldt",
+        "icon": "icons/en/veldt.1b5734a7f3f0935019d296accad86136.png",
+        "thumb": "icons/en/thumbs/veldt.1b5734a7f3f0935019d296accad86136.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Vulkar",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda3",
+        "url_name": "vulkar",
+        "icon": "icons/en/vulkar.cd244ebd97bf1ef69ed49b756d07665f.png",
+        "thumb": "icons/en/thumbs/vulkar.cd244ebd97bf1ef69ed49b756d07665f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Zarr",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda4",
+        "url_name": "zarr",
+        "icon": "icons/en/zarr.ab172f2a4dac5c140772ba2ac675b614.png",
+        "thumb": "icons/en/thumbs/zarr.ab172f2a4dac5c140772ba2ac675b614.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Zenith",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda5",
+        "url_name": "zenith",
+        "icon": "icons/en/zenith.031d3559d3575fa5f23d17f1fd2cacb9.png",
+        "thumb": "icons/en/thumbs/zenith.031d3559d3575fa5f23d17f1fd2cacb9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Zhuge",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fda6",
+        "url_name": "zhuge",
+        "icon": "icons/en/zhuge.69a6b4bcee465c6b3332ddb4d6d29e19.png",
+        "thumb": "icons/en/thumbs/zhuge.69a6b4bcee465c6b3332ddb4d6d29e19.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Acrid",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fda7",
+        "url_name": "acrid",
+        "icon": "icons/en/acrid.def858b7d99e216a123d8af9a4f3663c.png",
+        "thumb": "icons/en/thumbs/acrid.def858b7d99e216a123d8af9a4f3663c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Afuris",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fda8",
+        "url_name": "afuris",
+        "icon": "icons/en/afuris.836b9b7a1ea7cceeacf42f929d33ad3f.png",
+        "thumb": "icons/en/thumbs/afuris.836b9b7a1ea7cceeacf42f929d33ad3f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akbolto",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fda9",
+        "url_name": "akbolto",
+        "icon": "icons/en/akbolto.ba66cf8e6481671a1a69057b78ed74e8.png",
+        "thumb": "icons/en/thumbs/akbolto.ba66cf8e6481671a1a69057b78ed74e8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akbronco",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdaa",
+        "url_name": "akbronco",
+        "icon": "icons/en/akbronco.cc3f95412fa414ddd87a90c63240928f.png",
+        "thumb": "icons/en/thumbs/akbronco.cc3f95412fa414ddd87a90c63240928f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akjagara",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdab",
+        "url_name": "akjagara",
+        "icon": "icons/en/akjagara.8d4087f177bb51d5b4fd5d3ac89ea78e.png",
+        "thumb": "icons/en/thumbs/akjagara.8d4087f177bb51d5b4fd5d3ac89ea78e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Aklato",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdac",
+        "url_name": "aklato",
+        "icon": "icons/en/aklato.fb4fd2557ee8190c747b8a21fc130f86.png",
+        "thumb": "icons/en/thumbs/aklato.fb4fd2557ee8190c747b8a21fc130f86.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Arca Scisco",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb4",
+        "url_name": "arca_scisco",
+        "icon": "icons/en/arca_scisco.8f53fed9eb4af8089fd98846bc365ca4.png",
+        "thumb": "icons/en/thumbs/arca_scisco.8f53fed9eb4af8089fd98846bc365ca4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Cycron",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdbd",
+        "url_name": "cycron",
+        "icon": "icons/en/cycron.8c415cf09d5a258677c3f42d9477c0ee.png",
+        "thumb": "icons/en/thumbs/cycron.8c415cf09d5a258677c3f42d9477c0ee.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Detron",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdbf",
+        "url_name": "detron",
+        "icon": "icons/en/detron.0d820dd8bfa6d4a9369456594232e0b6.png",
+        "thumb": "icons/en/thumbs/detron.0d820dd8bfa6d4a9369456594232e0b6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Embolist",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc2",
+        "url_name": "embolist",
+        "icon": "icons/en/embolist.19e333826e9f646df007efc7778a373e.png",
+        "thumb": "icons/en/thumbs/embolist.19e333826e9f646df007efc7778a373e.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Kamas",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe07",
+        "url_name": "dual_kamas",
+        "icon": "icons/en/dual_kamas.3a49f1ae023c1988d14200425aff3057.png",
+        "thumb": "icons/en/thumbs/dual_kamas.3a49f1ae023c1988d14200425aff3057.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kuva Shildeg",
+        "riven_type": "melee",
+        "id": "5dbe9b057ea27b0ffe3ca264",
+        "url_name": "kuva_shildeg",
+        "icon": "icons/en/kuva_shildeg.833d9ac75906e6ed810f87d16fc3bf23.png",
+        "thumb": "icons/en/thumbs/kuva_shildeg.833d9ac75906e6ed810f87d16fc3bf23.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Kuva Ayanga",
+        "riven_type": "rifle",
+        "id": "5dbe9b057ea27b0ffe3ca266",
+        "url_name": "kuva_ayanga",
+        "icon": "icons/en/kuva_ayanga.275bca032df566eff062e1f64920e4f4.png",
+        "thumb": "icons/en/thumbs/kuva_ayanga.275bca032df566eff062e1f64920e4f4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Vermisplicer",
+        "riven_type": "kitgun",
+        "id": "5fbd7b6fc34da301176015bc",
+        "url_name": "vermisplicer",
+        "icon": "icons/en/vermisplicer.9ef6b79c4c2c728c57627c2f1be95dd8.png",
+        "thumb": "icons/en/thumbs/vermisplicer.9ef6b79c4c2c728c57627c2f1be95dd8.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Sporelacer",
+        "riven_type": "kitgun",
+        "id": "5fbd7b6fc34da301176015bd",
+        "url_name": "sporelacer",
+        "icon": "icons/en/sporelacer.f1a595d7d13231a0d1b24fc694f5fb78.png",
+        "thumb": "icons/en/thumbs/sporelacer.f1a595d7d13231a0d1b24fc694f5fb78.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Argonak",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd62",
+        "url_name": "argonak",
+        "icon": "icons/en/argonak.39fc2b8728117c8c7cc81370cd216ba2.png",
+        "thumb": "icons/en/thumbs/argonak.39fc2b8728117c8c7cc81370cd216ba2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Castanas",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdbb",
+        "url_name": "castanas",
+        "icon": "icons/en/castanas.5cc83e4f12ce19559e2bfe6e0f0f1935.png",
+        "thumb": "icons/en/thumbs/castanas.5cc83e4f12ce19559e2bfe6e0f0f1935.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Cestra",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdbc",
+        "url_name": "cestra",
+        "icon": "icons/en/cestra.d37e157c149f8aa72194797d5175677d.png",
+        "thumb": "icons/en/thumbs/cestra.d37e157c149f8aa72194797d5175677d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Dual Toxocyst",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc1",
+        "url_name": "dual_toxocyst",
+        "icon": "icons/en/dual_toxocyst.c983c3cbfd781dec1226c09e5157ef13.png",
+        "thumb": "icons/en/thumbs/dual_toxocyst.c983c3cbfd781dec1226c09e5157ef13.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Hystrix",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc8",
+        "url_name": "hystrix",
+        "icon": "icons/en/hystrix.c4771631ef9eb250562012fbf407d439.png",
+        "thumb": "icons/en/thumbs/hystrix.c4771631ef9eb250562012fbf407d439.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Fragor",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe11",
+        "url_name": "fragor",
+        "icon": "icons/en/fragor.6b5c0c6d32b7f2d3a0576e7a0c28accb.png",
+        "thumb": "icons/en/thumbs/fragor.6b5c0c6d32b7f2d3a0576e7a0c28accb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Galatine",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe13",
+        "url_name": "galatine",
+        "icon": "icons/en/galatine.46969364e23ff22f2463e4479ef38b24.png",
+        "thumb": "icons/en/thumbs/galatine.46969364e23ff22f2463e4479ef38b24.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Gazal Machete",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe14",
+        "url_name": "gazal_machete",
+        "icon": "icons/en/gazal_machete.a9fc381acf6ba7519b812cf9f4e8954b.png",
+        "thumb": "icons/en/thumbs/gazal_machete.a9fc381acf6ba7519b812cf9f4e8954b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Gram",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe16",
+        "url_name": "gram",
+        "icon": "icons/en/gram.ab64eb4736d2acb63202cb34a320183e.png",
+        "thumb": "icons/en/thumbs/gram.ab64eb4736d2acb63202cb34a320183e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Guandao",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe17",
+        "url_name": "guandao",
+        "icon": "icons/en/guandao.68b20f3b44eb7bf103ed74b7a6219966.png",
+        "thumb": "icons/en/thumbs/guandao.68b20f3b44eb7bf103ed74b7a6219966.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Gunsen",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe18",
+        "url_name": "gunsen",
+        "icon": "icons/en/gunsen.381adede029c793f0dfd7c90963089a5.png",
+        "thumb": "icons/en/thumbs/gunsen.381adede029c793f0dfd7c90963089a5.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Skana",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0a",
+        "url_name": "dual_skana",
+        "icon": "icons/en/dual_skana.26ab111b35fe5cf8c76f1c484fae1fa2.png",
+        "thumb": "icons/en/thumbs/dual_skana.26ab111b35fe5cf8c76f1c484fae1fa2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Jaw Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe21",
+        "url_name": "jaw_sword",
+        "icon": "icons/en/jaw_sword.949c3646fad591912dc12df78f946c3f.png",
+        "thumb": "icons/en/thumbs/jaw_sword.949c3646fad591912dc12df78f946c3f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kesheg",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe24",
+        "url_name": "kesheg",
+        "icon": "icons/en/kesheg.fd223dc1c378610f8b550900bb2545c2.png",
+        "thumb": "icons/en/thumbs/kesheg.fd223dc1c378610f8b550900bb2545c2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kestrel",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe25",
+        "url_name": "kestrel",
+        "icon": "icons/en/kestrel.6486807517934177d97c300326ff0c10.png",
+        "thumb": "icons/en/thumbs/kestrel.6486807517934177d97c300326ff0c10.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Kronsh",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe29",
+        "url_name": "kronsh",
+        "icon": "icons/en/kronsh.affe607fb84379769f756a2409cbf0b6.png",
+        "thumb": "icons/en/thumbs/kronsh.affe607fb84379769f756a2409cbf0b6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Ballistica",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb7",
+        "url_name": "ballistica",
+        "icon": "icons/en/ballistica.178b8ec4820bbc01daa7ed321ef0890f.png",
+        "thumb": "icons/en/thumbs/ballistica.178b8ec4820bbc01daa7ed321ef0890f.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Heat Dagger",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1b",
+        "url_name": "heat_dagger",
+        "icon": "icons/en/heat_dagger.1284a42f3ca7d49b6e1dc11a96559bc8.png",
+        "thumb": "icons/en/thumbs/heat_dagger.1284a42f3ca7d49b6e1dc11a96559bc8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Jat Kittag",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1f",
+        "url_name": "jat_kittag",
+        "icon": "icons/en/jat_kittag.37688018eac638eff7502f4389055926.png",
+        "thumb": "icons/en/thumbs/jat_kittag.37688018eac638eff7502f4389055926.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Sonicor",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd8",
+        "url_name": "sonicor",
+        "icon": "icons/en/sonicor.c2e7aba399d4ba904c4a4f83a75e9bd7.png",
+        "thumb": "icons/en/thumbs/sonicor.c2e7aba399d4ba904c4a4f83a75e9bd7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Tombfinger",
+        "riven_type": "kitgun",
+        "id": "5ced51e0cd3f0b0098a3862e",
+        "url_name": "tombfinger",
+        "icon": "icons/en/tombfinger.41a16c13af6ffc11463bbbc1668a1d38.png",
+        "thumb": "icons/en/thumbs/tombfinger.41a16c13af6ffc11463bbbc1668a1d38.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Gaze",
+        "riven_type": "kitgun",
+        "id": "5ced51e2cd3f0b0098a3862f",
+        "url_name": "gaze",
+        "icon": "icons/en/gaze.94b19cdca4569789b6c1d51a1da91cdc.png",
+        "thumb": "icons/en/thumbs/gaze.94b19cdca4569789b6c1d51a1da91cdc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Pupacyst",
+        "riven_type": "melee",
+        "id": "5cf572509597e1019b1678c9",
+        "url_name": "pupacyst",
+        "icon": "icons/en/pupacyst.e81790fba493f2bfbe96184c7cc7064d.png",
+        "thumb": "icons/en/thumbs/pupacyst.e81790fba493f2bfbe96184c7cc7064d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Arca Plasmor",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd61",
+        "url_name": "arca_plasmor",
+        "icon": "icons/en/arca_plasmor.d992b822673f559b9b678ba1a7343002.png",
+        "thumb": "icons/en/thumbs/arca_plasmor.d992b822673f559b9b678ba1a7343002.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Galvacord",
+        "riven_type": "melee",
+        "id": "5cf572579597e1019b1678d4",
+        "url_name": "galvacord",
+        "icon": "icons/en/galvacord.2140990c96c2fdd29ffeaec8279094f1.png",
+        "thumb": "icons/en/thumbs/galvacord.2140990c96c2fdd29ffeaec8279094f1.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Bronco",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdba",
+        "url_name": "bronco",
+        "icon": "icons/en/bronco.c0b39eda7929fefbe5cf7e377c603c3f.png",
+        "thumb": "icons/en/thumbs/bronco.c0b39eda7929fefbe5cf7e377c603c3f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Dual Cestra",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc0",
+        "url_name": "dual_cestra",
+        "icon": "icons/en/dual_cestra.c55565d7154d20796cbea06fc66a928f.png",
+        "thumb": "icons/en/thumbs/dual_cestra.c55565d7154d20796cbea06fc66a928f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Furis",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc4",
+        "url_name": "furis",
+        "icon": "icons/en/furis.f2d9baed7db3eb0b5c9659ecee5cebe2.png",
+        "thumb": "icons/en/thumbs/furis.f2d9baed7db3eb0b5c9659ecee5cebe2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ankyros",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdec",
+        "url_name": "ankyros",
+        "icon": "icons/en/ankyros.56404bf846a2eeea24245932f1897a30.png",
+        "thumb": "icons/en/thumbs/ankyros.56404bf846a2eeea24245932f1897a30.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Atterax",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdee",
+        "url_name": "atterax",
+        "icon": "icons/en/atterax.79855f62aaa825e425eed6f36b687aa5.png",
+        "thumb": "icons/en/thumbs/atterax.79855f62aaa825e425eed6f36b687aa5.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Bo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf0",
+        "url_name": "bo",
+        "icon": "icons/en/bo.52ac556f0b623ced5cc7e489a7c6d060.png",
+        "thumb": "icons/en/thumbs/bo.52ac556f0b623ced5cc7e489a7c6d060.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Cassowar",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf4",
+        "url_name": "cassowar",
+        "icon": "icons/en/cassowar.978e20cb98bf63a3d059c5883a99c3e6.png",
+        "thumb": "icons/en/thumbs/cassowar.978e20cb98bf63a3d059c5883a99c3e6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ceramic Dagger",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf6",
+        "url_name": "ceramic_dagger",
+        "icon": "icons/en/ceramic_dagger.f32d32062b09723f6481fa1d8e79f5c2.png",
+        "thumb": "icons/en/thumbs/ceramic_dagger.f32d32062b09723f6481fa1d8e79f5c2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Halikar",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe19",
+        "url_name": "halikar",
+        "icon": "icons/en/halikar.2836e85660670e0b7faf4ee5e31ed435.png",
+        "thumb": "icons/en/thumbs/halikar.2836e85660670e0b7faf4ee5e31ed435.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Hirudo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1e",
+        "url_name": "hirudo",
+        "icon": "icons/en/hirudo.a056a643f7582517371f13a8cf0243ed.png",
+        "thumb": "icons/en/thumbs/hirudo.a056a643f7582517371f13a8cf0243ed.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Mire",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe31",
+        "url_name": "mire",
+        "icon": "icons/en/mire.4bc449120b1046c370d6fbca3b3c5f2a.png",
+        "thumb": "icons/en/thumbs/mire.4bc449120b1046c370d6fbca3b3c5f2a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Twin Krohkur",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe56",
+        "url_name": "twin_krohkur",
+        "icon": "icons/en/twin_krohkur.15144cd22c339ffc5f0226c260f95a91.png",
+        "thumb": "icons/en/thumbs/twin_krohkur.15144cd22c339ffc5f0226c260f95a91.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Latron",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd81",
+        "url_name": "latron",
+        "icon": "icons/en/latron.80c8dcc71e135db8e2fb398c0204d1be.png",
+        "thumb": "icons/en/thumbs/latron.80c8dcc71e135db8e2fb398c0204d1be.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Lenz",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd82",
+        "url_name": "lenz",
+        "icon": "icons/en/lenz.c503188d5decb7208a86975a77881152.png",
+        "thumb": "icons/en/thumbs/lenz.c503188d5decb7208a86975a77881152.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Miter",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd83",
+        "url_name": "miter",
+        "icon": "icons/en/miter.6685ee070afd0ae6e10eff755ba6898b.png",
+        "thumb": "icons/en/thumbs/miter.6685ee070afd0ae6e10eff755ba6898b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Mutalist Cernos",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd84",
+        "url_name": "mutalist_cernos",
+        "icon": "icons/en/mutalist_cernos.de5bd437b72e9c95f7cbc845769fbdfe.png",
+        "thumb": "icons/en/thumbs/mutalist_cernos.de5bd437b72e9c95f7cbc845769fbdfe.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Mutalist Quanta",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd85",
+        "url_name": "mutalist_quanta",
+        "icon": "icons/en/mutalist_quanta.1bf95233f395adc4a44c46a23ed08c68.png",
+        "thumb": "icons/en/thumbs/mutalist_quanta.1bf95233f395adc4a44c46a23ed08c68.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Opticor",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd87",
+        "url_name": "opticor",
+        "icon": "icons/en/opticor.5add59f5ba98aa6384eea9d7052943bf.png",
+        "thumb": "icons/en/thumbs/opticor.5add59f5ba98aa6384eea9d7052943bf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Panthera",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd88",
+        "url_name": "panthera",
+        "icon": "icons/en/panthera.ee862561bf473b65df9fa58fbeaaa795.png",
+        "thumb": "icons/en/thumbs/panthera.ee862561bf473b65df9fa58fbeaaa795.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Penta",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd8b",
+        "url_name": "penta",
+        "icon": "icons/en/penta.2d713f1bdcad43f90dd5691a8bb775e7.png",
+        "thumb": "icons/en/thumbs/penta.2d713f1bdcad43f90dd5691a8bb775e7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Phage",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd8c",
+        "url_name": "phage",
+        "icon": "icons/en/phage.b0f3d7bd8b8f38805a316b46f00eb8fb.png",
+        "thumb": "icons/en/thumbs/phage.b0f3d7bd8b8f38805a316b46f00eb8fb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Phantasma",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd8d",
+        "url_name": "phantasma",
+        "icon": "icons/en/phantasma.f98d17ed4134d5528ed7f21429ef6006.png",
+        "thumb": "icons/en/thumbs/phantasma.f98d17ed4134d5528ed7f21429ef6006.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Quanta",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd8e",
+        "url_name": "quanta",
+        "icon": "icons/en/quanta.a1b49d5f5d5c3c46b7f0cd130369559a.png",
+        "thumb": "icons/en/thumbs/quanta.a1b49d5f5d5c3c46b7f0cd130369559a.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Rubico",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd90",
+        "url_name": "rubico",
+        "icon": "icons/en/rubico.19654c8831d70f150f84be3f69b35a15.png",
+        "thumb": "icons/en/thumbs/rubico.19654c8831d70f150f84be3f69b35a15.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Simulor",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd92",
+        "url_name": "simulor",
+        "icon": "icons/en/simulor.b04c9a58fcb0b4802d67f39c5fc52732.png",
+        "thumb": "icons/en/thumbs/simulor.b04c9a58fcb0b4802d67f39c5fc52732.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Snipetron",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd93",
+        "url_name": "snipetron",
+        "icon": "icons/en/snipetron.fc41509b5224da3e9fd0dd1b149133cf.png",
+        "thumb": "icons/en/thumbs/snipetron.fc41509b5224da3e9fd0dd1b149133cf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Sobek",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd94",
+        "url_name": "sobek",
+        "icon": "icons/en/sobek.9835bb100ba5988d4aeb812230ab767a.png",
+        "thumb": "icons/en/thumbs/sobek.9835bb100ba5988d4aeb812230ab767a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Stradavar",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd96",
+        "url_name": "stradavar",
+        "icon": "icons/en/stradavar.e69dd79f2dc691327e6f5475c032e09c.png",
+        "thumb": "icons/en/thumbs/stradavar.e69dd79f2dc691327e6f5475c032e09c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Strun",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd97",
+        "url_name": "strun",
+        "icon": "icons/en/strun.e8cc2909f474436bb2573b8ba7ff43b7.png",
+        "thumb": "icons/en/thumbs/strun.e8cc2909f474436bb2573b8ba7ff43b7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Sybaris",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd99",
+        "url_name": "sybaris",
+        "icon": "icons/en/sybaris.5216e20cbf612b67bbe22a6c7c6b107e.png",
+        "thumb": "icons/en/thumbs/sybaris.5216e20cbf612b67bbe22a6c7c6b107e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tetra",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd9c",
+        "url_name": "tetra",
+        "icon": "icons/en/tetra.f86faf40614dc3d227cdd7766b27fddc.png",
+        "thumb": "icons/en/thumbs/tetra.f86faf40614dc3d227cdd7766b27fddc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Gammacor",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc6",
+        "url_name": "gammacor",
+        "icon": "icons/en/gammacor.6d4b35b6390c9dcf97ac45c7082f4999.png",
+        "thumb": "icons/en/thumbs/gammacor.6d4b35b6390c9dcf97ac45c7082f4999.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Nukor",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd2",
+        "url_name": "nukor",
+        "icon": "icons/en/nukor.d4bffded3de6af3f2d6e420bd9e6a948.png",
+        "thumb": "icons/en/thumbs/nukor.d4bffded3de6af3f2d6e420bd9e6a948.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Pandero",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd3",
+        "url_name": "pandero",
+        "icon": "icons/en/pandero.e21b74806853bf80e2b3ca9fc4bdc635.png",
+        "thumb": "icons/en/thumbs/pandero.e21b74806853bf80e2b3ca9fc4bdc635.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Pox",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd4",
+        "url_name": "pox",
+        "icon": "icons/en/pox.7ee16999c33c310ac4c87c8a31f6c551.png",
+        "thumb": "icons/en/thumbs/pox.7ee16999c33c310ac4c87c8a31f6c551.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Pyrana",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdd5",
+        "url_name": "pyrana",
+        "icon": "icons/en/pyrana.76c730b1909750965e34b2ca2e12da81.png",
+        "thumb": "icons/en/thumbs/pyrana.76c730b1909750965e34b2ca2e12da81.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Sicarus",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd7",
+        "url_name": "sicarus",
+        "icon": "icons/en/sicarus.630099456411a4fc42c99708f1208200.png",
+        "thumb": "icons/en/thumbs/sicarus.630099456411a4fc42c99708f1208200.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Spira",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdda",
+        "url_name": "spira",
+        "icon": "icons/en/spira.ba156097272dd7bf205ff6cc49015c43.png",
+        "thumb": "icons/en/thumbs/spira.ba156097272dd7bf205ff6cc49015c43.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Dehtat",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fdfe",
+        "url_name": "dehtat",
+        "icon": "icons/en/dehtat.9a28bb6c6f0a1608301aea395a8e87c8.png",
+        "thumb": "icons/en/thumbs/dehtat.9a28bb6c6f0a1608301aea395a8e87c8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Destreza",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdff",
+        "url_name": "destreza",
+        "icon": "icons/en/destreza.4d34c03000e5462ae2a21c4306a731e0.png",
+        "thumb": "icons/en/thumbs/destreza.4d34c03000e5462ae2a21c4306a731e0.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dex Dakra",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe00",
+        "url_name": "dex_dakra",
+        "icon": "icons/en/dex_dakra.bfa2fbc9398fd0db61a295f4bcff715d.png",
+        "thumb": "icons/en/thumbs/dex_dakra.bfa2fbc9398fd0db61a295f4bcff715d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Dokrahm",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe01",
+        "url_name": "dokrahm",
+        "icon": "icons/en/dokrahm.57b0f7d49c3389c9760481a8043e9e9f.png",
+        "thumb": "icons/en/thumbs/dokrahm.57b0f7d49c3389c9760481a8043e9e9f.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dragon Nikana",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe02",
+        "url_name": "dragon_nikana",
+        "icon": "icons/en/dragon_nikana.3525eba6c48fb62195e846bc8030b492.png",
+        "thumb": "icons/en/thumbs/dragon_nikana.3525eba6c48fb62195e846bc8030b492.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Cleavers",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe03",
+        "url_name": "dual_cleavers",
+        "icon": "icons/en/dual_cleavers.376cee4cc5b1c3cc62e460710ceff5fc.png",
+        "thumb": "icons/en/thumbs/dual_cleavers.376cee4cc5b1c3cc62e460710ceff5fc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Ether",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe04",
+        "url_name": "dual_ether",
+        "icon": "icons/en/dual_ether.e42e672c12a5a419a56f79eb68682d41.png",
+        "thumb": "icons/en/thumbs/dual_ether.e42e672c12a5a419a56f79eb68682d41.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Heat Swords",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe05",
+        "url_name": "dual_heat_swords",
+        "icon": "icons/en/dual_heat_swords.db32e731d487a5c4218f71108290cc06.png",
+        "thumb": "icons/en/thumbs/dual_heat_swords.db32e731d487a5c4218f71108290cc06.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Ichor",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe06",
+        "url_name": "dual_ichor",
+        "icon": "icons/en/dual_ichor.e18da7cac99ec9154bc6ad895fc39185.png",
+        "thumb": "icons/en/thumbs/dual_ichor.e18da7cac99ec9154bc6ad895fc39185.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Keres",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe08",
+        "url_name": "dual_keres",
+        "icon": "icons/en/dual_keres.0a93b2e4eab73c24e0fb4675f59f2781.png",
+        "thumb": "icons/en/thumbs/dual_keres.0a93b2e4eab73c24e0fb4675f59f2781.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kama",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe22",
+        "url_name": "kama",
+        "icon": "icons/en/kama.4e5a6ecdb5d523f9684d104714655b9e.png",
+        "thumb": "icons/en/thumbs/kama.4e5a6ecdb5d523f9684d104714655b9e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kogake",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe26",
+        "url_name": "kogake",
+        "icon": "icons/en/kogake.f09fa04d9a65d621c0505649274db68a.png",
+        "thumb": "icons/en/thumbs/kogake.f09fa04d9a65d621c0505649274db68a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Multron",
+        "riven_type": "rifle",
+        "id": "5d70ebe17ea27b064d455074",
+        "url_name": "multron",
+        "icon": "icons/en/multron.f4545cda5161c2db5d9168b71ff22114.png",
+        "thumb": "icons/en/thumbs/multron.f4545cda5161c2db5d9168b71ff22114.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Vulcax",
+        "riven_type": "rifle",
+        "id": "5d70ebe17ea27b064d455075",
+        "url_name": "vulcax",
+        "icon": "icons/en/vulcax.3a56d04e6c430c9a8a1e6ad219a9a790.png",
+        "thumb": "icons/en/thumbs/vulcax.3a56d04e6c430c9a8a1e6ad219a9a790.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Masseter",
+        "riven_type": "melee",
+        "id": "5dbe9b047ea27b0ffe3ca262",
+        "url_name": "masseter",
+        "icon": "icons/en/masseter.e61dbb2678e344be701b9d376c1bf3fc.png",
+        "thumb": "icons/en/thumbs/masseter.e61dbb2678e344be701b9d376c1bf3fc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Pathocyst",
+        "riven_type": "melee",
+        "id": "5dbe9b057ea27b0ffe3ca263",
+        "url_name": "pathocyst",
+        "icon": "icons/en/pathocyst.f423b7a6a78d2e4780c1007f0f0fb464.png",
+        "thumb": "icons/en/thumbs/pathocyst.f423b7a6a78d2e4780c1007f0f0fb464.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Kuva Chakkhurr",
+        "riven_type": "rifle",
+        "id": "5dbe9b057ea27b0ffe3ca265",
+        "url_name": "kuva_chakkhurr",
+        "icon": "icons/en/kuva_chakkhurr.a6dd9f9351a16da48402612663ea86da.png",
+        "thumb": "icons/en/thumbs/kuva_chakkhurr.a6dd9f9351a16da48402612663ea86da.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Lecta",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe2b",
+        "url_name": "lecta",
+        "icon": "icons/en/lecta.d6de28d017ed55fc6f5ee90db6e2c621.png",
+        "thumb": "icons/en/thumbs/lecta.d6de28d017ed55fc6f5ee90db6e2c621.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Machete",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe2d",
+        "url_name": "machete",
+        "icon": "icons/en/machete.b871c145d37c3fdde5715fe80524101f.png",
+        "thumb": "icons/en/thumbs/machete.b871c145d37c3fdde5715fe80524101f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Magistar",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe2e",
+        "url_name": "magistar",
+        "icon": "icons/en/magistar.3e7a9bed8a7c19ca24351b7a291ff6e7.png",
+        "thumb": "icons/en/thumbs/magistar.3e7a9bed8a7c19ca24351b7a291ff6e7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Mewan",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe2f",
+        "url_name": "mewan",
+        "icon": "icons/en/mewan.96388512f768a99763561d0a410f62c5.png",
+        "thumb": "icons/en/thumbs/mewan.96388512f768a99763561d0a410f62c5.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Mios",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe30",
+        "url_name": "mios",
+        "icon": "icons/en/mios.da75e577f209d8954d9b44c80994f32e.png",
+        "thumb": "icons/en/thumbs/mios.da75e577f209d8954d9b44c80994f32e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Rabvee",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe41",
+        "url_name": "rabvee",
+        "icon": "icons/en/rabvee.a99b8ff88268ccd1a827bcacdd48fecf.png",
+        "thumb": "icons/en/thumbs/rabvee.a99b8ff88268ccd1a827bcacdd48fecf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "War",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe59",
+        "url_name": "war",
+        "icon": "icons/en/war.7273eef3bc28b2a6455ab57cbfb46006.png",
+        "thumb": "icons/en/thumbs/war.7273eef3bc28b2a6455ab57cbfb46006.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Artax",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fe5b",
+        "url_name": "artax",
+        "icon": "icons/en/artax.8a047393bd65e561eab11d568aa46c13.png",
+        "thumb": "icons/en/thumbs/artax.8a047393bd65e561eab11d568aa46c13.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Burst Laser",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fe5c",
+        "url_name": "burst_laser",
+        "icon": "icons/en/burst_laser.a8d766d42aed74e71e246da778345604.png",
+        "thumb": "icons/en/thumbs/burst_laser.a8d766d42aed74e71e246da778345604.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Deth Machine Rifle",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fe5e",
+        "url_name": "deth_machine_rifle",
+        "icon": "icons/en/deth_machine_rifle.996e6635b08ca2b916b00c3004c904b4.png",
+        "thumb": "icons/en/thumbs/deth_machine_rifle.996e6635b08ca2b916b00c3004c904b4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Laser Rifle",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fe5f",
+        "url_name": "laser_rifle",
+        "icon": "icons/en/laser_rifle.1be6c8b6ae0b5d7067871992fac7cfdd.png",
+        "thumb": "icons/en/thumbs/laser_rifle.1be6c8b6ae0b5d7067871992fac7cfdd.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Astilla",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd63",
+        "url_name": "astilla",
+        "icon": "icons/en/astilla.a172d60ec9a6cfe760c408f6a66fbbd4.png",
+        "thumb": "icons/en/thumbs/astilla.a172d60ec9a6cfe760c408f6a66fbbd4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Baza",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd65",
+        "url_name": "baza",
+        "icon": "icons/en/baza.e6765564311125de7ff2d24fa1c5f6cc.png",
+        "thumb": "icons/en/thumbs/baza.e6765564311125de7ff2d24fa1c5f6cc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Boar",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd66",
+        "url_name": "boar",
+        "icon": "icons/en/boar.9b6d1ef6c217e48180e3702ab0d4e6c8.png",
+        "thumb": "icons/en/thumbs/boar.9b6d1ef6c217e48180e3702ab0d4e6c8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Flux Rifle",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd73",
+        "url_name": "flux_rifle",
+        "icon": "icons/en/flux_rifle.715baa0ac2fcaa3d16a41c7622ad86ac.png",
+        "thumb": "icons/en/thumbs/flux_rifle.715baa0ac2fcaa3d16a41c7622ad86ac.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Cronus",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf8",
+        "url_name": "cronus",
+        "icon": "icons/en/cronus.f32d32062b09723f6481fa1d8e79f5c2.png",
+        "thumb": "icons/en/thumbs/cronus.f32d32062b09723f6481fa1d8e79f5c2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Endura",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0c",
+        "url_name": "endura",
+        "icon": "icons/en/endura.7c0cbf05f44774e720900848d2333767.png",
+        "thumb": "icons/en/thumbs/endura.7c0cbf05f44774e720900848d2333767.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Glaive",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe15",
+        "url_name": "glaive",
+        "icon": "icons/en/glaive.7b1c251b4f1fcc0afe64ce5233a39891.png",
+        "thumb": "icons/en/thumbs/glaive.7b1c251b4f1fcc0afe64ce5233a39891.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Heat Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe1c",
+        "url_name": "heat_sword",
+        "icon": "icons/en/heat_sword.37ec8d825dc0fbc83d951149ff3ba8b6.png",
+        "thumb": "icons/en/thumbs/heat_sword.37ec8d825dc0fbc83d951149ff3ba8b6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Jat Kusar",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe20",
+        "url_name": "jat_kusar",
+        "icon": "icons/en/jat_kusar.1b8964cd6faa0ed9a27c39eb5e5d795f.png",
+        "thumb": "icons/en/thumbs/jat_kusar.1b8964cd6faa0ed9a27c39eb5e5d795f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Nami Skyla",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe32",
+        "url_name": "nami_skyla",
+        "icon": "icons/en/nami_skyla.29176d53b6ce46afda32cdc292b391ad.png",
+        "thumb": "icons/en/thumbs/nami_skyla.29176d53b6ce46afda32cdc292b391ad.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Nami Solo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe33",
+        "url_name": "nami_solo",
+        "icon": "icons/en/nami_solo.daf0c2684b5d12b9e8ca2ff0958b405d.png",
+        "thumb": "icons/en/thumbs/nami_solo.daf0c2684b5d12b9e8ca2ff0958b405d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Nikana",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe34",
+        "url_name": "nikana",
+        "icon": "icons/en/nikana.ded47e934d4f2051d9a89bcf017cdfca.png",
+        "thumb": "icons/en/thumbs/nikana.ded47e934d4f2051d9a89bcf017cdfca.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ninkondi",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe35",
+        "url_name": "ninkondi",
+        "icon": "icons/en/ninkondi.390943b9c551749e19d348e2e8950ae1.png",
+        "thumb": "icons/en/thumbs/ninkondi.390943b9c551749e19d348e2e8950ae1.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Obex",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe36",
+        "url_name": "obex",
+        "icon": "icons/en/obex.40b015303d936acebc71e5430dd85367.png",
+        "thumb": "icons/en/thumbs/obex.40b015303d936acebc71e5430dd85367.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ohma",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe37",
+        "url_name": "ohma",
+        "icon": "icons/en/ohma.44487796f209ddbbc355edcf60619800.png",
+        "thumb": "icons/en/thumbs/ohma.44487796f209ddbbc355edcf60619800.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Okina",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe38",
+        "url_name": "okina",
+        "icon": "icons/en/okina.46be8af0b880aa60168c0988ad64ea19.png",
+        "thumb": "icons/en/thumbs/okina.46be8af0b880aa60168c0988ad64ea19.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Ooltha",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe39",
+        "url_name": "ooltha",
+        "icon": "icons/en/ooltha.e13df69ef5130d9335f2bd364599ae86.png",
+        "thumb": "icons/en/thumbs/ooltha.e13df69ef5130d9335f2bd364599ae86.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Orthos",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe3a",
+        "url_name": "orthos",
+        "icon": "icons/en/orthos.7e3529cd44b8e270233180b907f72a1d.png",
+        "thumb": "icons/en/thumbs/orthos.7e3529cd44b8e270233180b907f72a1d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Orvius",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe3b",
+        "url_name": "orvius",
+        "icon": "icons/en/orvius.dfeabc5bbe31c5c3f253d8a20f2a40b2.png",
+        "thumb": "icons/en/thumbs/orvius.dfeabc5bbe31c5c3f253d8a20f2a40b2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Pangolin Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe3c",
+        "url_name": "pangolin_sword",
+        "icon": "icons/en/pangolin_sword.f47fec884e189d952e37d6b184901eb9.png",
+        "thumb": "icons/en/thumbs/pangolin_sword.f47fec884e189d952e37d6b184901eb9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Plague Keewar",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe3d",
+        "url_name": "plague_keewar",
+        "icon": "icons/en/plague_keewar.b5e3ceedb8d0ff5ed2defa788e484805.png",
+        "thumb": "icons/en/thumbs/plague_keewar.b5e3ceedb8d0ff5ed2defa788e484805.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Plague Kripath",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe3e",
+        "url_name": "plague_kripath",
+        "icon": "icons/en/plague_kripath.00191263224f5e5d1ed7957631073fa6.png",
+        "thumb": "icons/en/thumbs/plague_kripath.00191263224f5e5d1ed7957631073fa6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Plasma Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe3f",
+        "url_name": "plasma_sword",
+        "icon": "icons/en/plasma_sword.89dee5321cc774df8fbbd818b844e193.png",
+        "thumb": "icons/en/thumbs/plasma_sword.89dee5321cc774df8fbbd818b844e193.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Prova",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe40",
+        "url_name": "prova",
+        "icon": "icons/en/prova.81054da7c6c20e79abd36521923fa925.png",
+        "thumb": "icons/en/thumbs/prova.81054da7c6c20e79abd36521923fa925.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Redeemer",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe43",
+        "url_name": "redeemer",
+        "icon": "icons/en/redeemer.b39a80a47d3b0df5056bd07b5e277af8.png",
+        "thumb": "icons/en/thumbs/redeemer.b39a80a47d3b0df5056bd07b5e277af8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Skana",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4f",
+        "url_name": "skana",
+        "icon": "icons/en/skana.5b98dcf4cb92f1d6fab21a56d365fcc0.png",
+        "thumb": "icons/en/thumbs/skana.5b98dcf4cb92f1d6fab21a56d365fcc0.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Harpak",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd78",
+        "url_name": "harpak",
+        "icon": "icons/en/harpak.948d1817c05097ff14a16639dbcd5bb2.png",
+        "thumb": "icons/en/thumbs/harpak.948d1817c05097ff14a16639dbcd5bb2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Hema",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd7a",
+        "url_name": "hema",
+        "icon": "icons/en/hema.4cc3a2ff4a815c7dfdb07a514a883b82.png",
+        "thumb": "icons/en/thumbs/hema.4cc3a2ff4a815c7dfdb07a514a883b82.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Hind",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd7b",
+        "url_name": "hind",
+        "icon": "icons/en/hind.c12777c936ceac97a065a03a655a750e.png",
+        "thumb": "icons/en/thumbs/hind.c12777c936ceac97a065a03a655a750e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Ignis",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd7c",
+        "url_name": "ignis",
+        "icon": "icons/en/ignis.5b4369035d619c37fed2ecbdafb7594a.png",
+        "thumb": "icons/en/thumbs/ignis.5b4369035d619c37fed2ecbdafb7594a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Javlok",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd7d",
+        "url_name": "javlok",
+        "icon": "icons/en/javlok.c389afeba8aac67aadb738377bdb4ec8.png",
+        "thumb": "icons/en/thumbs/javlok.c389afeba8aac67aadb738377bdb4ec8.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Karak",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd7e",
+        "url_name": "karak",
+        "icon": "icons/en/karak.bbe0d895125d9c2b3b612c34a5e611f3.png",
+        "thumb": "icons/en/thumbs/karak.bbe0d895125d9c2b3b612c34a5e611f3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Kohm",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd7f",
+        "url_name": "kohm",
+        "icon": "icons/en/kohm.361a454b487f45e05ef7c884a6a0dad2.png",
+        "thumb": "icons/en/thumbs/kohm.361a454b487f45e05ef7c884a6a0dad2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Lanka",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd80",
+        "url_name": "lanka",
+        "icon": "icons/en/lanka.fc41509b5224da3e9fd0dd1b149133cf.png",
+        "thumb": "icons/en/thumbs/lanka.fc41509b5224da3e9fd0dd1b149133cf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Paris",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd8a",
+        "url_name": "paris",
+        "icon": "icons/en/paris.644a8cdf6a49b88e7df042cbac294e15.png",
+        "thumb": "icons/en/thumbs/paris.644a8cdf6a49b88e7df042cbac294e15.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Quartakk",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd8f",
+        "url_name": "quartakk",
+        "icon": "icons/en/quartakk.3c94922cd929ce60e3a6acbb6a47bea9.png",
+        "thumb": "icons/en/thumbs/quartakk.3c94922cd929ce60e3a6acbb6a47bea9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Scourge",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd91",
+        "url_name": "scourge",
+        "icon": "icons/en/scourge.055569ef8aba07d2c53fc3f82390c482.png",
+        "thumb": "icons/en/thumbs/scourge.055569ef8aba07d2c53fc3f82390c482.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Spectra",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd9",
+        "url_name": "spectra",
+        "icon": "icons/en/spectra.2d58d17ca4cad3d43d7e373294a6c7ce.png",
+        "thumb": "icons/en/thumbs/spectra.2d58d17ca4cad3d43d7e373294a6c7ce.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Staticor",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fddb",
+        "url_name": "staticor",
+        "icon": "icons/en/staticor.7f88069ac20fd028ff8c5d3bc8cd8057.png",
+        "thumb": "icons/en/thumbs/staticor.7f88069ac20fd028ff8c5d3bc8cd8057.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Stubba",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fddc",
+        "url_name": "stubba",
+        "icon": "icons/en/stubba.6d4ac00860e711de12a9c746113fe987.png",
+        "thumb": "icons/en/thumbs/stubba.6d4ac00860e711de12a9c746113fe987.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Stug",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fddd",
+        "url_name": "stug",
+        "icon": "icons/en/stug.dc2ff3e23d19a9c4657316879ed40033.png",
+        "thumb": "icons/en/thumbs/stug.dc2ff3e23d19a9c4657316879ed40033.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Talons",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdde",
+        "url_name": "talons",
+        "icon": "icons/en/talons.a4e7d6091b69a8e27d9bb572c58df3ff.png",
+        "thumb": "icons/en/thumbs/talons.a4e7d6091b69a8e27d9bb572c58df3ff.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Twin Grakatas",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fddf",
+        "url_name": "twin_grakatas",
+        "icon": "icons/en/twin_grakatas.02ca4e72db844e9787bb834dffaba710.png",
+        "thumb": "icons/en/thumbs/twin_grakatas.02ca4e72db844e9787bb834dffaba710.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Twin Gremlins",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde0",
+        "url_name": "twin_gremlins",
+        "icon": "icons/en/twin_gremlins.36127609f284a9c973fcedd340d45187.png",
+        "thumb": "icons/en/thumbs/twin_gremlins.36127609f284a9c973fcedd340d45187.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Twin Kohmak",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fde1",
+        "url_name": "twin_kohmak",
+        "icon": "icons/en/twin_kohmak.358010434239192a9d8adfa3c3a85333.png",
+        "thumb": "icons/en/thumbs/twin_kohmak.358010434239192a9d8adfa3c3a85333.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Twin Rogga",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fde2",
+        "url_name": "twin_rogga",
+        "icon": "icons/en/twin_rogga.0b8d505d6436e04c8a99c1ccf99ac3da.png",
+        "thumb": "icons/en/thumbs/twin_rogga.0b8d505d6436e04c8a99c1ccf99ac3da.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Twin Vipers",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde3",
+        "url_name": "twin_vipers",
+        "icon": "icons/en/twin_vipers.1c0e4335bf0f64303f2e469cfa10022b.png",
+        "thumb": "icons/en/thumbs/twin_vipers.1c0e4335bf0f64303f2e469cfa10022b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Tysis",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde4",
+        "url_name": "tysis",
+        "icon": "icons/en/tysis.9d80f73358c18d058b92787dd54d704d.png",
+        "thumb": "icons/en/thumbs/tysis.9d80f73358c18d058b92787dd54d704d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Vasto",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde5",
+        "url_name": "vasto",
+        "icon": "icons/en/vasto.cab25e30e10e1a8d9fbe3a487bd7b9f2.png",
+        "thumb": "icons/en/thumbs/vasto.cab25e30e10e1a8d9fbe3a487bd7b9f2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Viper",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde6",
+        "url_name": "viper",
+        "icon": "icons/en/viper.9da1c64daaf6ee8ab90d81cfb7f5598d.png",
+        "thumb": "icons/en/thumbs/viper.9da1c64daaf6ee8ab90d81cfb7f5598d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Zylok",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde8",
+        "url_name": "zylok",
+        "icon": "icons/en/zylok.fa578a9c8fa46de167ff200523b6276c.png",
+        "thumb": "icons/en/thumbs/zylok.fa578a9c8fa46de167ff200523b6276c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dakra Prime",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdfa",
+        "url_name": "dakra_prime",
+        "icon": "icons/en/dakra_prime.34da279951b92713480d09bdbf7104b7.png",
+        "thumb": "icons/en/thumbs/dakra_prime.34da279951b92713480d09bdbf7104b7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dark Dagger",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdfb",
+        "url_name": "dark_dagger",
+        "icon": "icons/en/dark_dagger.bbd0865d2a2bb1c399b80c6170f37c2d.png",
+        "thumb": "icons/en/thumbs/dark_dagger.bbd0865d2a2bb1c399b80c6170f37c2d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Kuva Twin Stubbas",
+        "riven_type": "pistol",
+        "id": "5dc2d8bbff08fd007d021a44",
+        "url_name": "kuva_twin_stubbas",
+        "icon": "icons/en/kuva_twin_stubbas.dc0f04384096b1b10ffd15a4a65bf2fb.png",
+        "thumb": "icons/en/thumbs/kuva_twin_stubbas.dc0f04384096b1b10ffd15a4a65bf2fb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Pennant",
+        "riven_type": "melee",
+        "id": "5e02154d14569703bf43e548",
+        "url_name": "pennant",
+        "icon": "icons/en/pennant.c466162ce14d3ae4acbf5ccae316026c.png",
+        "thumb": "icons/en/thumbs/pennant.c466162ce14d3ae4acbf5ccae316026c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Kuva Bramma",
+        "riven_type": "rifle",
+        "id": "5e41458f7b0275011bc5b7cc",
+        "url_name": "kuva_bramma",
+        "icon": "icons/en/kuva_bramma.11b49af045d8c2594e41fffd4490c73f.png",
+        "thumb": "icons/en/thumbs/kuva_bramma.11b49af045d8c2594e41fffd4490c73f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Stropha",
+        "riven_type": "melee",
+        "id": "5ee7dea904d55c0b2614f571",
+        "url_name": "stropha",
+        "icon": "icons/en/stropha.08c23ce01edf041f6204aa470f8f12c9.png",
+        "thumb": "icons/en/thumbs/stropha.08c23ce01edf041f6204aa470f8f12c9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Morgha",
+        "riven_type": "rifle",
+        "id": "5fb847a0c34da30068f912bd",
+        "url_name": "morgha",
+        "icon": "icons/en/morgha.afc1c19230048e45ab0813aa68a996d1.png",
+        "thumb": "icons/en/thumbs/morgha.afc1c19230048e45ab0813aa68a996d1.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Catabolyst",
+        "riven_type": "pistol",
+        "id": "5fb847a0c34da30068f912be",
+        "url_name": "catabolyst",
+        "icon": "icons/en/catabolyst.176976251f7674bbe864356f3ebbe1fd.png",
+        "thumb": "icons/en/thumbs/catabolyst.176976251f7674bbe864356f3ebbe1fd.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Hikou",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc7",
+        "url_name": "hikou",
+        "icon": "icons/en/hikou.193c15fbaf82f2391dc78cc7d64cf16f.png",
+        "thumb": "icons/en/thumbs/hikou.193c15fbaf82f2391dc78cc7d64cf16f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Knell",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdc9",
+        "url_name": "knell",
+        "icon": "icons/en/knell.9a97c9771a12c761b115a2db54c82481.png",
+        "thumb": "icons/en/thumbs/knell.9a97c9771a12c761b115a2db54c82481.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Kohmak",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdca",
+        "url_name": "kohmak",
+        "icon": "icons/en/kohmak.eb021126188f25d7e5d136e10a35f6b5.png",
+        "thumb": "icons/en/thumbs/kohmak.eb021126188f25d7e5d136e10a35f6b5.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Kraken",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdcb",
+        "url_name": "kraken",
+        "icon": "icons/en/kraken.8a24a27094e9102e359200fdffe3fab7.png",
+        "thumb": "icons/en/thumbs/kraken.8a24a27094e9102e359200fdffe3fab7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Kunai",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdcd",
+        "url_name": "kunai",
+        "icon": "icons/en/kunai.4ebd6a5b7383356584c275fbdf34c9e3.png",
+        "thumb": "icons/en/thumbs/kunai.4ebd6a5b7383356584c275fbdf34c9e3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Lex",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdcf",
+        "url_name": "lex",
+        "icon": "icons/en/lex.7f92c6b8ee87ab528af27c1821fdbb9f.png",
+        "thumb": "icons/en/thumbs/lex.7f92c6b8ee87ab528af27c1821fdbb9f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Marelok",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd1",
+        "url_name": "marelok",
+        "icon": "icons/en/marelok.71aee4b391af97aa2376fe28d24fdf26.png",
+        "thumb": "icons/en/thumbs/marelok.71aee4b391af97aa2376fe28d24fdf26.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Broken Scepter",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdf2",
+        "url_name": "broken_scepter",
+        "icon": "icons/en/broken_scepter.9412cd26613aca64d75a63330b444d31.png",
+        "thumb": "icons/en/thumbs/broken_scepter.9412cd26613aca64d75a63330b444d31.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Zoren",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0b",
+        "url_name": "dual_zoren",
+        "icon": "icons/en/dual_zoren.200bb76dd57b17d1c9da6c21645fd42c.png",
+        "thumb": "icons/en/thumbs/dual_zoren.200bb76dd57b17d1c9da6c21645fd42c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ether Daggers",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0d",
+        "url_name": "ether_daggers",
+        "icon": "icons/en/ether_daggers.c431b1f0b63ade4bea3cd6ab5a27bd03.png",
+        "thumb": "icons/en/thumbs/ether_daggers.c431b1f0b63ade4bea3cd6ab5a27bd03.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ether Reaper",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0e",
+        "url_name": "ether_reaper",
+        "icon": "icons/en/ether_reaper.3eca2ba4f605744704c3c6b1b8a8cf8b.png",
+        "thumb": "icons/en/thumbs/ether_reaper.3eca2ba4f605744704c3c6b1b8a8cf8b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ether Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe0f",
+        "url_name": "ether_sword",
+        "icon": "icons/en/ether_sword.d12cfe31514386723ebda1e804ca33c9.png",
+        "thumb": "icons/en/thumbs/ether_sword.d12cfe31514386723ebda1e804ca33c9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Fang",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe10",
+        "url_name": "fang",
+        "icon": "icons/en/fang.e9cd7e9f9a5c2ffb3b2a84485d9a34af.png",
+        "thumb": "icons/en/thumbs/fang.e9cd7e9f9a5c2ffb3b2a84485d9a34af.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Furax",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe12",
+        "url_name": "furax",
+        "icon": "icons/en/furax.3192073e79805e28de48aded8faf2f2c.png",
+        "thumb": "icons/en/thumbs/furax.3192073e79805e28de48aded8faf2f2c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Karyst",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe23",
+        "url_name": "karyst",
+        "icon": "icons/en/karyst.6c88b8b1ffdd6dbd5e71d1443ddd8bb2.png",
+        "thumb": "icons/en/thumbs/karyst.6c88b8b1ffdd6dbd5e71d1443ddd8bb2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Stinger",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fe60",
+        "url_name": "stinger",
+        "icon": "icons/en/stinger.c06e66fa90e9b3ae8949992459763beb.png",
+        "thumb": "icons/en/thumbs/stinger.c06e66fa90e9b3ae8949992459763beb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Vulklok",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fe62",
+        "url_name": "vulklok",
+        "icon": "icons/en/vulklok.afb2dead96611511849d92327fc00996.png",
+        "thumb": "icons/en/thumbs/vulklok.afb2dead96611511849d92327fc00996.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Catchmoon",
+        "riven_type": "kitgun",
+        "id": "5ced51decd3f0b0098a3862c",
+        "url_name": "catchmoon",
+        "icon": "icons/en/catchmoon.971ee1945ce27bc5bb644d1937581191.png",
+        "thumb": "icons/en/thumbs/catchmoon.971ee1945ce27bc5bb644d1937581191.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Plinx",
+        "riven_type": "pistol",
+        "id": "5cf572529597e1019b1678cb",
+        "url_name": "plinx",
+        "icon": "icons/en/plinx.cf7698c478e44f83968e66f21a1558ae.png",
+        "thumb": "icons/en/thumbs/plinx.cf7698c478e44f83968e66f21a1558ae.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Korrudo",
+        "riven_type": "melee",
+        "id": "5cf572529597e1019b1678cc",
+        "url_name": "korrudo",
+        "icon": "icons/en/korrudo.2f569c1c1ba03172278a5f3e88358aed.png",
+        "thumb": "icons/en/thumbs/korrudo.2f569c1c1ba03172278a5f3e88358aed.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Fulmin",
+        "riven_type": "rifle",
+        "id": "5cf572539597e1019b1678cd",
+        "url_name": "fulmin",
+        "icon": "icons/en/fulmin.f2e4fae730960f6c0617577ea0f496ad.png",
+        "thumb": "icons/en/thumbs/fulmin.f2e4fae730960f6c0617577ea0f496ad.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Cobra & Crane",
+        "riven_type": "melee",
+        "id": "5cf572549597e1019b1678ce",
+        "url_name": "cobra_and_crane",
+        "icon": "icons/en/cobra_and_crane.41a0914a2e6890b42e7ab2175a8d9c1c.png",
+        "thumb": "icons/en/thumbs/cobra_and_crane.41a0914a2e6890b42e7ab2175a8d9c1c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Komorex",
+        "riven_type": "rifle",
+        "id": "5cf572549597e1019b1678d0",
+        "url_name": "komorex",
+        "icon": "icons/en/komorex.a6b6018eca915e11179a2bf29b55d3ea.png",
+        "thumb": "icons/en/thumbs/komorex.a6b6018eca915e11179a2bf29b55d3ea.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Cyanex",
+        "riven_type": "pistol",
+        "id": "5cf572559597e1019b1678d2",
+        "url_name": "cyanex",
+        "icon": "icons/en/cyanex.286f84f86986ce93a3a47f5fee6ee18d.png",
+        "thumb": "icons/en/thumbs/cyanex.286f84f86986ce93a3a47f5fee6ee18d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tatsu",
+        "riven_type": "melee",
+        "id": "5cf572579597e1019b1678d5",
+        "url_name": "tatsu",
+        "icon": "icons/en/tatsu.7c620e4ccaf9d3c7ee56d8156c77d09f.png",
+        "thumb": "icons/en/thumbs/tatsu.7c620e4ccaf9d3c7ee56d8156c77d09f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Cyngas",
+        "riven_type": "rifle",
+        "id": "5cfe91738be64500e4430cdc",
+        "url_name": "cyngas",
+        "icon": "icons/en/cyngas.06e5a46f3d3b985ce51c8154c0325088.png",
+        "thumb": "icons/en/thumbs/cyngas.06e5a46f3d3b985ce51c8154c0325088.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Larkspur",
+        "riven_type": "rifle",
+        "id": "5cfe91748be64500e4430cdd",
+        "url_name": "larkspur",
+        "icon": "icons/en/larkspur.dd276ff94db2ebbc9cc778ee03db8d71.png",
+        "thumb": "icons/en/thumbs/larkspur.dd276ff94db2ebbc9cc778ee03db8d71.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Imperator",
+        "riven_type": "rifle",
+        "id": "5cfe91768be64500e4430cde",
+        "url_name": "imperator",
+        "icon": "icons/en/imperator.ca5c50909c6e4d40fc93fa5e9a525897.png",
+        "thumb": "icons/en/thumbs/imperator.ca5c50909c6e4d40fc93fa5e9a525897.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Corvas",
+        "riven_type": "rifle",
+        "id": "5cfe91788be64500e4430cdf",
+        "url_name": "corvas",
+        "icon": "icons/en/corvas.2eb50d3296c78f3875e5e95f45fac275.png",
+        "thumb": "icons/en/thumbs/corvas.2eb50d3296c78f3875e5e95f45fac275.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Phaedra",
+        "riven_type": "rifle",
+        "id": "5cfe91798be64500e4430ce1",
+        "url_name": "phaedra",
+        "icon": "icons/en/phaedra.990089ecdb2751f628e24bfe0493059e.png",
+        "thumb": "icons/en/thumbs/phaedra.990089ecdb2751f628e24bfe0493059e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Grattler",
+        "riven_type": "rifle",
+        "id": "5cfe917a8be64500e4430ce2",
+        "url_name": "grattler",
+        "icon": "icons/en/grattler.1332aad0c83155f87a1caeac7bb93fc4.png",
+        "thumb": "icons/en/thumbs/grattler.1332aad0c83155f87a1caeac7bb93fc4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Dual Decurion",
+        "riven_type": "rifle",
+        "id": "5cfe917d8be64500e4430ce4",
+        "url_name": "dual_decurion",
+        "icon": "icons/en/dual_decurion.c38ff4f5a6e811f42c54fd0d15144942.png",
+        "thumb": "icons/en/thumbs/dual_decurion.c38ff4f5a6e811f42c54fd0d15144942.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Attica",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd64",
+        "url_name": "attica",
+        "icon": "icons/en/attica.d75ddb584fa9ea3cd44f20c09e121cda.png",
+        "thumb": "icons/en/thumbs/attica.d75ddb584fa9ea3cd44f20c09e121cda.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Boltor",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd67",
+        "url_name": "boltor",
+        "icon": "icons/en/boltor.b00dd8933257acaab1936c88e345edfc.png",
+        "thumb": "icons/en/thumbs/boltor.b00dd8933257acaab1936c88e345edfc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Braton",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd68",
+        "url_name": "braton",
+        "icon": "icons/en/braton.139748d7e02e1d7370a0641ec81f4e2a.png",
+        "thumb": "icons/en/thumbs/braton.139748d7e02e1d7370a0641ec81f4e2a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Corinth",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd6d",
+        "url_name": "corinth",
+        "icon": "icons/en/corinth.1c30d611482746b4c0a4ef2d83be750c.png",
+        "thumb": "icons/en/thumbs/corinth.1c30d611482746b4c0a4ef2d83be750c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Ferrox",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd72",
+        "url_name": "ferrox",
+        "icon": "icons/en/ferrox.5a29b2afc0382ce4f85d78dc9d086c2c.png",
+        "thumb": "icons/en/thumbs/ferrox.5a29b2afc0382ce4f85d78dc9d086c2c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Hek",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd79",
+        "url_name": "hek",
+        "icon": "icons/en/hek.01deb97da07d4680bf7db7111d6fb533.png",
+        "thumb": "icons/en/thumbs/hek.01deb97da07d4680bf7db7111d6fb533.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Ogris",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd86",
+        "url_name": "ogris",
+        "icon": "icons/en/ogris.9155e81ec783c0afd68646499883b17c.png",
+        "thumb": "icons/en/thumbs/ogris.9155e81ec783c0afd68646499883b17c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Paracyst",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd89",
+        "url_name": "paracyst",
+        "icon": "icons/en/paracyst.c81528e565a7651b7a7d809e9a8f2974.png",
+        "thumb": "icons/en/thumbs/paracyst.c81528e565a7651b7a7d809e9a8f2974.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Supra",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd98",
+        "url_name": "supra",
+        "icon": "icons/en/supra.f1e9cbaf71eff60771de3aa57a9596f4.png",
+        "thumb": "icons/en/thumbs/supra.f1e9cbaf71eff60771de3aa57a9596f4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tenora",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd9b",
+        "url_name": "tenora",
+        "icon": "icons/en/tenora.19b00a342112d86c188adc35be697eda.png",
+        "thumb": "icons/en/thumbs/tenora.19b00a342112d86c188adc35be697eda.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tiberon",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd9d",
+        "url_name": "tiberon",
+        "icon": "icons/en/tiberon.d3bd3db70fcc6bd97713419f1ac222e3.png",
+        "thumb": "icons/en/thumbs/tiberon.d3bd3db70fcc6bd97713419f1ac222e3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Aklex",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdad",
+        "url_name": "aklex",
+        "icon": "icons/en/aklex.800394d7e0f24986229130ea22dfa4e7.png",
+        "thumb": "icons/en/thumbs/aklex.800394d7e0f24986229130ea22dfa4e7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akmagnus",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdae",
+        "url_name": "akmagnus",
+        "icon": "icons/en/akmagnus.71b5c604b03e3afd601d3d1ec5d116a3.png",
+        "thumb": "icons/en/thumbs/akmagnus.71b5c604b03e3afd601d3d1ec5d116a3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Aksomati",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdaf",
+        "url_name": "aksomati",
+        "icon": "icons/en/aksomati.7f420cc90ae6ef6d8130c9475dc50274.png",
+        "thumb": "icons/en/thumbs/aksomati.7f420cc90ae6ef6d8130c9475dc50274.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akstiletto",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb0",
+        "url_name": "akstiletto",
+        "icon": "icons/en/akstiletto.2532b4ad6207e99496ac4a84021a9ad3.png",
+        "thumb": "icons/en/thumbs/akstiletto.2532b4ad6207e99496ac4a84021a9ad3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akvasto",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb1",
+        "url_name": "akvasto",
+        "icon": "icons/en/akvasto.efa0bb0ef386af5bbb36fedc9a9e77eb.png",
+        "thumb": "icons/en/thumbs/akvasto.efa0bb0ef386af5bbb36fedc9a9e77eb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akzani",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb2",
+        "url_name": "akzani",
+        "icon": "icons/en/akzani.cdef36c1271e3298d65d24b43646f1cf.png",
+        "thumb": "icons/en/thumbs/akzani.cdef36c1271e3298d65d24b43646f1cf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Angstrum",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb3",
+        "url_name": "angstrum",
+        "icon": "icons/en/angstrum.8a8e60fea990e087f5075a5ad0027d1f.png",
+        "thumb": "icons/en/thumbs/angstrum.8a8e60fea990e087f5075a5ad0027d1f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Atomos",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb5",
+        "url_name": "atomos",
+        "icon": "icons/en/atomos.2f3af350060d4b7ff4adae2b12f97b0a.png",
+        "thumb": "icons/en/thumbs/atomos.2f3af350060d4b7ff4adae2b12f97b0a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Azima",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb6",
+        "url_name": "azima",
+        "icon": "icons/en/azima.8bb80c4b17a8fcbde5ef298c463d84e2.png",
+        "thumb": "icons/en/thumbs/azima.8bb80c4b17a8fcbde5ef298c463d84e2.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Bolto",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdb8",
+        "url_name": "bolto",
+        "icon": "icons/en/bolto.b5acc3cca68e54f8b45cb68288a63000.png",
+        "thumb": "icons/en/thumbs/bolto.b5acc3cca68e54f8b45cb68288a63000.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Brakk",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fdb9",
+        "url_name": "brakk",
+        "icon": "icons/en/brakk.db24dd1bc4fe5bba11129bbbfc9de5b7.png",
+        "thumb": "icons/en/thumbs/brakk.db24dd1bc4fe5bba11129bbbfc9de5b7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Despair",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdbe",
+        "url_name": "despair",
+        "icon": "icons/en/despair.dcdb6297c9579cb1457bd0b8d46dc52e.png",
+        "thumb": "icons/en/thumbs/despair.dcdb6297c9579cb1457bd0b8d46dc52e.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dual Raza",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe09",
+        "url_name": "dual_raza",
+        "icon": "icons/en/dual_raza.36dfb4b0a9c567d3cb8505501381b62b.png",
+        "thumb": "icons/en/thumbs/dual_raza.36dfb4b0a9c567d3cb8505501381b62b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Reaper Prime",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe42",
+        "url_name": "reaper_prime",
+        "icon": "icons/en/reaper_prime.37f8e5051fe8730227c6df1c68a7445b.png",
+        "thumb": "icons/en/thumbs/reaper_prime.37f8e5051fe8730227c6df1c68a7445b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ripkas",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe44",
+        "url_name": "ripkas",
+        "icon": "icons/en/ripkas.71a1f4cadb1fd39eee36642ca8189ef9.png",
+        "thumb": "icons/en/thumbs/ripkas.71a1f4cadb1fd39eee36642ca8189ef9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dark Sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdfd",
+        "url_name": "dark_sword",
+        "icon": "icons/en/dark_sword.0d15d2fbdd2129494ab98d626798f39f.png",
+        "thumb": "icons/en/thumbs/dark_sword.0d15d2fbdd2129494ab98d626798f39f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kreska",
+        "riven_type": "melee",
+        "id": "5cf572559597e1019b1678d1",
+        "url_name": "kreska",
+        "icon": "icons/en/kreska.b30c46cce9ef8e70c448a1c2479a0faf.png",
+        "thumb": "icons/en/thumbs/kreska.b30c46cce9ef8e70c448a1c2479a0faf.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Velocitus",
+        "riven_type": "rifle",
+        "id": "5cfe91798be64500e4430ce0",
+        "url_name": "velocitus",
+        "icon": "icons/en/velocitus.cbd04bd264e30012bc32de60f2976d6e.png",
+        "thumb": "icons/en/thumbs/velocitus.cbd04bd264e30012bc32de60f2976d6e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Fluctus",
+        "riven_type": "rifle",
+        "id": "5cfe917a8be64500e4430ce3",
+        "url_name": "fluctus",
+        "icon": "icons/en/fluctus.1260f4c62a54ae230993e30f66453712.png",
+        "thumb": "icons/en/thumbs/fluctus.1260f4c62a54ae230993e30f66453712.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Quatz",
+        "riven_type": "pistol",
+        "id": "5d322d0e74bdad027da4d06a",
+        "url_name": "quatz",
+        "icon": "icons/en/quatz.f53f42abcec3d6827af56f37657a348e.png",
+        "thumb": "icons/en/thumbs/quatz.f53f42abcec3d6827af56f37657a348e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Acceltra",
+        "riven_type": "rifle",
+        "id": "5d6e947e7ea27b048cbea8cc",
+        "url_name": "acceltra",
+        "icon": "icons/en/acceltra.2d57d4573999b2e19bedb218d9e9846c.png",
+        "thumb": "icons/en/thumbs/acceltra.2d57d4573999b2e19bedb218d9e9846c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Akarius",
+        "riven_type": "pistol",
+        "id": "5d6e947e7ea27b048cbea8cd",
+        "url_name": "akarius",
+        "icon": "icons/en/akarius.e347dca439dcc09e7e5e7f45d961787a.png",
+        "thumb": "icons/en/thumbs/akarius.e347dca439dcc09e7e5e7f45d961787a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Tazicor",
+        "riven_type": "rifle",
+        "id": "5d70ebe07ea27b064d455072",
+        "url_name": "tazicor",
+        "icon": "icons/en/tazicor.21da9f14f8da3fece55ea43bd598bb58.png",
+        "thumb": "icons/en/thumbs/tazicor.21da9f14f8da3fece55ea43bd598bb58.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Cryotra",
+        "riven_type": "rifle",
+        "id": "5d70ebe17ea27b064d455073",
+        "url_name": "cryotra",
+        "icon": "icons/en/cryotra.fe7350c85bb0b9aca1264f214cc88842.png",
+        "thumb": "icons/en/thumbs/cryotra.fe7350c85bb0b9aca1264f214cc88842.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Shedu",
+        "riven_type": "rifle",
+        "id": "5e02154d14569703bf43e547",
+        "url_name": "shedu",
+        "icon": "icons/en/shedu.765c016812e915e1e06ceb5e3820ae48.png",
+        "thumb": "icons/en/thumbs/shedu.765c016812e915e1e06ceb5e3820ae48.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Cortege",
+        "riven_type": "rifle",
+        "id": "5f498a389426ed005af5ecb2",
+        "url_name": "cortege",
+        "icon": "icons/en/cortege.9ea6df8e184b821217af6bdf94abb310.png",
+        "thumb": "icons/en/thumbs/cortege.9ea6df8e184b821217af6bdf94abb310.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Vitrica",
+        "riven_type": "melee",
+        "id": "5f9963079dbdce02e693ec7b",
+        "url_name": "vitrica",
+        "icon": "icons/en/vitrica.6c9d26f8d4f7989e4361c015a64ec269.png",
+        "thumb": "icons/en/thumbs/vitrica.6c9d26f8d4f7989e4361c015a64ec269.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Arquebex",
+        "riven_type": "melee",
+        "id": "5fb847a0c34da30068f912b7",
+        "url_name": "arquebex",
+        "icon": "icons/en/arquebex.fecf3c6caece7c77e9cf50d7be7a6425.png",
+        "thumb": "icons/en/thumbs/arquebex.fecf3c6caece7c77e9cf50d7be7a6425.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Pulmonars",
+        "riven_type": "melee",
+        "id": "5fb847a0c34da30068f912b8",
+        "url_name": "pulmonars",
+        "icon": "icons/en/pulmonars.919705abecc4facb4bc774d80c635cd3.png",
+        "thumb": "icons/en/thumbs/pulmonars.919705abecc4facb4bc774d80c635cd3.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Bubonico",
+        "riven_type": "rifle",
+        "id": "5fb847a0c34da30068f912b9",
+        "url_name": "bubonico",
+        "icon": "icons/en/bubonico.b930df0a79fb66c92fdf28e76bfa1b2e.png",
+        "thumb": "icons/en/thumbs/bubonico.b930df0a79fb66c92fdf28e76bfa1b2e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Proboscis Cernos",
+        "riven_type": "rifle",
+        "id": "5fb847a0c34da30068f912ba",
+        "url_name": "proboscis_cernos",
+        "icon": "icons/en/proboscis_cernos.5cac06026e1a51bfedec69ddf0af7cf9.png",
+        "thumb": "icons/en/thumbs/proboscis_cernos.5cac06026e1a51bfedec69ddf0af7cf9.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Sporothrix",
+        "riven_type": "rifle",
+        "id": "5fb847a0c34da30068f912bb",
+        "url_name": "sporothrix",
+        "icon": "icons/en/sporothrix.6f9948b1f4636d57a1bd613468ddc2b3.png",
+        "thumb": "icons/en/thumbs/sporothrix.6f9948b1f4636d57a1bd613468ddc2b3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Arum Spinosa",
+        "riven_type": "melee",
+        "id": "5fb847a0c34da30068f912bc",
+        "url_name": "arum_spinosa",
+        "icon": "icons/en/arum_spinosa.a676e9febc397c744ba0f3d4f13b891f.png",
+        "thumb": "icons/en/thumbs/arum_spinosa.a676e9febc397c744ba0f3d4f13b891f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Sarpa",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe45",
+        "url_name": "sarpa",
+        "icon": "icons/en/sarpa.12468314201edd826d524da9116695de.png",
+        "thumb": "icons/en/thumbs/sarpa.12468314201edd826d524da9116695de.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Scindo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe46",
+        "url_name": "scindo",
+        "icon": "icons/en/scindo.2a8908be0b93b22e469de09c17a97d66.png",
+        "thumb": "icons/en/thumbs/scindo.2a8908be0b93b22e469de09c17a97d66.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Scoliac",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe47",
+        "url_name": "scoliac",
+        "icon": "icons/en/scoliac.6703c0d6787801aa4e743570e345e268.png",
+        "thumb": "icons/en/thumbs/scoliac.6703c0d6787801aa4e743570e345e268.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Sepfahn",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fe48",
+        "url_name": "sepfahn",
+        "icon": "icons/en/sepfahn.c445d087b86e821d11ee009a627429e6.png",
+        "thumb": "icons/en/thumbs/sepfahn.c445d087b86e821d11ee009a627429e6.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Serro",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe49",
+        "url_name": "serro",
+        "icon": "icons/en/serro.acb5f8ff71e74cd25d277e1a1dbefcb5.png",
+        "thumb": "icons/en/thumbs/serro.acb5f8ff71e74cd25d277e1a1dbefcb5.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Shaku",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4a",
+        "url_name": "shaku",
+        "icon": "icons/en/shaku.dc15c1d78e22da3fede6f6ab3c5bef47.png",
+        "thumb": "icons/en/thumbs/shaku.dc15c1d78e22da3fede6f6ab3c5bef47.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Sheev",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4b",
+        "url_name": "sheev",
+        "icon": "icons/en/sheev.e083af0166692228641af774856fd04b.png",
+        "thumb": "icons/en/thumbs/sheev.e083af0166692228641af774856fd04b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Sibear",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4c",
+        "url_name": "sibear",
+        "icon": "icons/en/sibear.316a35a05e38b1826e5cf5056b4cb946.png",
+        "thumb": "icons/en/thumbs/sibear.316a35a05e38b1826e5cf5056b4cb946.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Sigma & Octantis",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4d",
+        "url_name": "sigma_and_octantis",
+        "icon": "icons/en/sigma_and_octantis.ba55ee8f63accecc063aa87c0d04ad17.png",
+        "thumb": "icons/en/thumbs/sigma_and_octantis.ba55ee8f63accecc063aa87c0d04ad17.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Silva & Aegis",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe4e",
+        "url_name": "silva_and_aegis",
+        "icon": "icons/en/silva_and_aegis.67594c1a2048db8a396756c0e4b63054.png",
+        "thumb": "icons/en/thumbs/silva_and_aegis.67594c1a2048db8a396756c0e4b63054.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Skiajati",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe50",
+        "url_name": "skiajati",
+        "icon": "icons/en/skiajati.545f2b491838bd12a8dc2d4fa9d8f1e9.png",
+        "thumb": "icons/en/thumbs/skiajati.545f2b491838bd12a8dc2d4fa9d8f1e9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Sydon",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe51",
+        "url_name": "sydon",
+        "icon": "icons/en/sydon.85d4c0918503f427164dbc69d27d9443.png",
+        "thumb": "icons/en/thumbs/sydon.85d4c0918503f427164dbc69d27d9443.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tekko",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe52",
+        "url_name": "tekko",
+        "icon": "icons/en/tekko.8c0daa853f7d5cbfdceef3fe3d8ecb01.png",
+        "thumb": "icons/en/thumbs/tekko.8c0daa853f7d5cbfdceef3fe3d8ecb01.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tipedo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe53",
+        "url_name": "tipedo",
+        "icon": "icons/en/tipedo.3231886049a74dae17e5fa0e2992c54f.png",
+        "thumb": "icons/en/thumbs/tipedo.3231886049a74dae17e5fa0e2992c54f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tonbo",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe54",
+        "url_name": "tonbo",
+        "icon": "icons/en/tonbo.4a9b061a66674a4ccdf65c794c0df0eb.png",
+        "thumb": "icons/en/thumbs/tonbo.4a9b061a66674a4ccdf65c794c0df0eb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Twin Basolk",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe55",
+        "url_name": "twin_basolk",
+        "icon": "icons/en/twin_basolk.a6e398dafc2dcf1e2b4e2516ae08af06.png",
+        "thumb": "icons/en/thumbs/twin_basolk.a6e398dafc2dcf1e2b4e2516ae08af06.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Amprex",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd60",
+        "url_name": "amprex",
+        "icon": "icons/en/amprex.96d41f4e6b7c4f8483f90c44683ba2bf.png",
+        "thumb": "icons/en/thumbs/amprex.96d41f4e6b7c4f8483f90c44683ba2bf.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Burston",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd69",
+        "url_name": "burston",
+        "icon": "icons/en/burston.2aa5358640a76f5a43f11b4254560311.png",
+        "thumb": "icons/en/thumbs/burston.2aa5358640a76f5a43f11b4254560311.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Buzlok",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd6a",
+        "url_name": "buzlok",
+        "icon": "icons/en/buzlok.505769cecc7314d13d236e6227be8c26.png",
+        "thumb": "icons/en/thumbs/buzlok.505769cecc7314d13d236e6227be8c26.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Cernos",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd6b",
+        "url_name": "cernos",
+        "icon": "icons/en/cernos.6ea49e65e339e10cc84409e7dcb02cef.png",
+        "thumb": "icons/en/thumbs/cernos.6ea49e65e339e10cc84409e7dcb02cef.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Convectrix",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd6c",
+        "url_name": "convectrix",
+        "icon": "icons/en/convectrix.5b6ad3c7b9c59e7de5130bac9588315c.png",
+        "thumb": "icons/en/thumbs/convectrix.5b6ad3c7b9c59e7de5130bac9588315c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Daikyu",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd6e",
+        "url_name": "daikyu",
+        "icon": "icons/en/daikyu.8ae5a0a469eadd60b5a755d76a317dff.png",
+        "thumb": "icons/en/thumbs/daikyu.8ae5a0a469eadd60b5a755d76a317dff.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Dera",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd6f",
+        "url_name": "dera",
+        "icon": "icons/en/dera.d2e71b091f5b5a62a6a11a6846dc924e.png",
+        "thumb": "icons/en/thumbs/dera.d2e71b091f5b5a62a6a11a6846dc924e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Drakgoon",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fd70",
+        "url_name": "drakgoon",
+        "icon": "icons/en/drakgoon.6b8dfef7ac875fa49f3418254b9a0d2b.png",
+        "thumb": "icons/en/thumbs/drakgoon.6b8dfef7ac875fa49f3418254b9a0d2b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Dread",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd71",
+        "url_name": "dread",
+        "icon": "icons/en/dread.c1bc8cbd36a8ff069e4388607a9d1ee6.png",
+        "thumb": "icons/en/thumbs/dread.c1bc8cbd36a8ff069e4388607a9d1ee6.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Glaxion",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd74",
+        "url_name": "glaxion",
+        "icon": "icons/en/glaxion.ef97d7dd12728d34ea7ed50100c197b0.png",
+        "thumb": "icons/en/thumbs/glaxion.ef97d7dd12728d34ea7ed50100c197b0.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Gorgon",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd75",
+        "url_name": "gorgon",
+        "icon": "icons/en/gorgon.322fd818e70763de4ba6bf3334c498fd.png",
+        "thumb": "icons/en/thumbs/gorgon.322fd818e70763de4ba6bf3334c498fd.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Grakata",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd76",
+        "url_name": "grakata",
+        "icon": "icons/en/grakata.cc349001047e5445675581a53cf4a30f.png",
+        "thumb": "icons/en/thumbs/grakata.cc349001047e5445675581a53cf4a30f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Grinlok",
+        "riven_type": "rifle",
+        "id": "5c5ca81696e8d2003834fd77",
+        "url_name": "grinlok",
+        "icon": "icons/en/grinlok.d4946bece8cf876693fb748649e1e72b.png",
+        "thumb": "icons/en/thumbs/grinlok.d4946bece8cf876693fb748649e1e72b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Seer",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fdd6",
+        "url_name": "seer",
+        "icon": "icons/en/seer.d6955128cc55ac9fce8eda2b8674712a.png",
+        "thumb": "icons/en/thumbs/seer.d6955128cc55ac9fce8eda2b8674712a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Zakti",
+        "riven_type": "pistol",
+        "id": "5c5ca81696e8d2003834fde7",
+        "url_name": "zakti",
+        "icon": "icons/en/zakti.41680477b8d0d79382d677e328336031.png",
+        "thumb": "icons/en/thumbs/zakti.41680477b8d0d79382d677e328336031.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "zaw",
+        "item_name": "Cyath",
+        "riven_type": "zaw",
+        "id": "5c5ca81696e8d2003834fdf9",
+        "url_name": "cyath",
+        "icon": "icons/en/cyath.9be1cfd6ca29427512ee0efe203aba4d.png",
+        "thumb": "icons/en/thumbs/cyath.9be1cfd6ca29427512ee0efe203aba4d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Dark Split-sword",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fdfc",
+        "url_name": "dark_split_sword_(dual_swords)",
+        "icon": "icons/en/dark_split_sword_(dual_swords).a0e5f62b68b83216be729ed300be65f7.png",
+        "thumb": "icons/en/thumbs/dark_split_sword_(dual_swords).a0e5f62b68b83216be729ed300be65f7.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Krohkur",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe27",
+        "url_name": "krohkur",
+        "icon": "icons/en/krohkur.032f3fcc8aa332fb4ce3bd00ab8b0133.png",
+        "thumb": "icons/en/thumbs/krohkur.032f3fcc8aa332fb4ce3bd00ab8b0133.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Kronen",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe28",
+        "url_name": "kronen",
+        "icon": "icons/en/kronen.f5271e71b923e6ba302a31bda9b3287f.png",
+        "thumb": "icons/en/thumbs/kronen.f5271e71b923e6ba302a31bda9b3287f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Lacera",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe2a",
+        "url_name": "lacera",
+        "icon": "icons/en/lacera.d609ef53d33cadf5c618c93ed238d6d2.png",
+        "thumb": "icons/en/thumbs/lacera.d609ef53d33cadf5c618c93ed238d6d2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Lesion",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe2c",
+        "url_name": "lesion",
+        "icon": "icons/en/lesion.5e02a91a3896e5303279c0c929b8d5ec.png",
+        "thumb": "icons/en/thumbs/lesion.5e02a91a3896e5303279c0c929b8d5ec.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Venka",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe57",
+        "url_name": "venka",
+        "icon": "icons/en/venka.e1ecfa02e0c61e38048695a98868fc3c.png",
+        "thumb": "icons/en/thumbs/venka.e1ecfa02e0c61e38048695a98868fc3c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Volnus",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe58",
+        "url_name": "volnus",
+        "icon": "icons/en/volnus.2353fb37d6c473b12f28bfef8c8a95dd.png",
+        "thumb": "icons/en/thumbs/volnus.2353fb37d6c473b12f28bfef8c8a95dd.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Zenistar",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe5a",
+        "url_name": "zenistar",
+        "icon": "icons/en/zenistar.d99a217f3dde3380a9ea5145e9effa67.png",
+        "thumb": "icons/en/thumbs/zenistar.d99a217f3dde3380a9ea5145e9effa67.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Deconstructor",
+        "riven_type": "melee",
+        "id": "5c5ca81696e8d2003834fe5d",
+        "url_name": "deconstructor",
+        "icon": "icons/en/deconstructor.2bc000648cdc4a157808ac70ccc937c2.png",
+        "thumb": "icons/en/thumbs/deconstructor.2bc000648cdc4a157808ac70ccc937c2.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Sweeper",
+        "riven_type": "shotgun",
+        "id": "5c5ca81696e8d2003834fe61",
+        "url_name": "sweeper",
+        "icon": "icons/en/sweeper.75089120a61fac27357466d9dee19d8f.png",
+        "thumb": "icons/en/thumbs/sweeper.75089120a61fac27357466d9dee19d8f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "kitgun",
+        "item_name": "Rattleguts",
+        "riven_type": "kitgun",
+        "id": "5ced51e0cd3f0b0098a3862d",
+        "url_name": "rattleguts",
+        "icon": "icons/en/rattleguts.51473ced4b8099a9fbb25dfad75e8b45.png",
+        "thumb": "icons/en/thumbs/rattleguts.51473ced4b8099a9fbb25dfad75e8b45.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Wolf Sledge",
+        "riven_type": "melee",
+        "id": "5cf572569597e1019b1678d3",
+        "url_name": "wolf_sledge",
+        "icon": "icons/en/wolf_sledge.65accab6b5b94753be5db7d124f3b086.png",
+        "thumb": "icons/en/thumbs/wolf_sledge.65accab6b5b94753be5db7d124f3b086.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Quellor",
+        "riven_type": "rifle",
+        "id": "5e02154d14569703bf43e549",
+        "url_name": "quellor",
+        "icon": "icons/en/quellor.4a72101e1ef7e50287d619e68a44d97e.png",
+        "thumb": "icons/en/thumbs/quellor.4a72101e1ef7e50287d619e68a44d97e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Basmu",
+        "riven_type": "rifle",
+        "id": "5e7ca96f267539062bcc4179",
+        "url_name": "basmu",
+        "icon": "icons/en/basmu.d7260ea6d078f34f6ebd751cdc8d7bcb.png",
+        "thumb": "icons/en/thumbs/basmu.d7260ea6d078f34f6ebd751cdc8d7bcb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Stahlta",
+        "riven_type": "rifle",
+        "id": "5ee7dea904d55c0b2614f572",
+        "url_name": "stahlta",
+        "icon": "icons/en/stahlta.30d7537c3158976f86998e5b9fa05f96.png",
+        "thumb": "icons/en/thumbs/stahlta.30d7537c3158976f86998e5b9fa05f96.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Velox",
+        "riven_type": "pistol",
+        "id": "5ee7dea904d55c0b2614f573",
+        "url_name": "velox",
+        "icon": "icons/en/velox.8d807d2b4f5eddf0d1b17e52adc717ac.png",
+        "thumb": "icons/en/thumbs/velox.8d807d2b4f5eddf0d1b17e52adc717ac.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Helstrum",
+        "riven_type": "rifle",
+        "id": "5f07214b9f527b017c17a95b",
+        "url_name": "helstrum",
+        "icon": "icons/en/helstrum.4bbc6d2784cacae7d2c1974d188a1839.png",
+        "thumb": "icons/en/thumbs/helstrum.4bbc6d2784cacae7d2c1974d188a1839.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Xoris",
+        "riven_type": "melee",
+        "id": "5f07214b9f527b017c17a95c",
+        "url_name": "xoris",
+        "icon": "icons/en/xoris.97a7c35070f3d75257662ad38798c9a1.png",
+        "thumb": "icons/en/thumbs/xoris.97a7c35070f3d75257662ad38798c9a1.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Athodai",
+        "riven_type": "pistol",
+        "id": "5f2af41aad961e006bd6a95f",
+        "url_name": "athodai",
+        "icon": "icons/en/athodai.a43f1e1a103b2fd440e7b940652ed8eb.png",
+        "thumb": "icons/en/thumbs/athodai.a43f1e1a103b2fd440e7b940652ed8eb.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Sepulcrum",
+        "riven_type": "pistol",
+        "id": "5f498a379426ed005af5ecac",
+        "url_name": "sepulcrum",
+        "icon": "icons/en/sepulcrum.e092d60c4da946e3d7c273cdbcd2759f.png",
+        "thumb": "icons/en/thumbs/sepulcrum.e092d60c4da946e3d7c273cdbcd2759f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Quassus",
+        "riven_type": "melee",
+        "id": "5f498a379426ed005af5ecad",
+        "url_name": "quassus",
+        "icon": "icons/en/quassus.6875bf8f51ad6a9851c7a0588b516420.png",
+        "thumb": "icons/en/thumbs/quassus.6875bf8f51ad6a9851c7a0588b516420.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "primary",
+        "item_name": "Trumna",
+        "riven_type": "rifle",
+        "id": "5f498a379426ed005af5ecae",
+        "url_name": "trumna",
+        "icon": "icons/en/trumna.58fe7a2d48680a998ff55f77ff4b2b7d.png",
+        "thumb": "icons/en/thumbs/trumna.58fe7a2d48680a998ff55f77ff4b2b7d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Zymos",
+        "riven_type": "pistol",
+        "id": "5f498a379426ed005af5ecaf",
+        "url_name": "zymos",
+        "icon": "icons/en/zymos.d358a221a7683eb20bd8af1b02e9d0da.png",
+        "thumb": "icons/en/thumbs/zymos.d358a221a7683eb20bd8af1b02e9d0da.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Keratinos",
+        "riven_type": "melee",
+        "id": "5f498a379426ed005af5ecb0",
+        "url_name": "keratinos",
+        "icon": "icons/en/keratinos.48005cdde13b283b6bf2ecc70b8e866c.png",
+        "thumb": "icons/en/thumbs/keratinos.48005cdde13b283b6bf2ecc70b8e866c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "archgun",
+        "item_name": "Mausolon",
+        "riven_type": "rifle",
+        "id": "5f498a389426ed005af5ecb1",
+        "url_name": "mausolon",
+        "icon": "icons/en/mausolon.e36603d05a4cf5721df96af425333d94.png",
+        "thumb": "icons/en/thumbs/mausolon.e36603d05a4cf5721df96af425333d94.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Cedo",
+        "riven_type": "shotgun",
+        "id": "5fde10b76db57b017abc81a7",
+        "url_name": "cedo",
+        "icon": "icons/en/cedo.d7860fa9e134a2632283d0f83acfe61d.png",
+        "thumb": "icons/en/thumbs/cedo.d7860fa9e134a2632283d0f83acfe61d.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Verglas",
+        "riven_type": "rifle",
+        "id": "6070925384a7d7024f5f5772",
+        "url_name": "verglas",
+        "icon": "icons/en/verglas.054675349b9adf5c081d8988dae4ff3e.png",
+        "thumb": "icons/en/thumbs/verglas.054675349b9adf5c081d8988dae4ff3e.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Epitaph",
+        "riven_type": "pistol",
+        "id": "60783de384a7d703362ef000",
+        "url_name": "epitaph",
+        "icon": "icons/en/epitaph.b3a75cdcef1c7ba2971d2c550f8390e3.png",
+        "thumb": "icons/en/thumbs/epitaph.b3a75cdcef1c7ba2971d2c550f8390e3.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Tenet Envoy",
+        "riven_type": "rifle",
+        "id": "60e5b9014794450053e99962",
+        "url_name": "tenet_envoy",
+        "icon": "icons/en/tenet_envoy.f341073be2aa327d73ec3a0b8fc5d09a.png",
+        "thumb": "icons/en/thumbs/tenet_envoy.f341073be2aa327d73ec3a0b8fc5d09a.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Tenet Spirex",
+        "riven_type": "pistol",
+        "id": "60e5b9014794450053e99963",
+        "url_name": "tenet_spirex",
+        "icon": "icons/en/tenet_spirex.83d8bd8063942b58eace31b5e2ad7ebc.png",
+        "thumb": "icons/en/thumbs/tenet_spirex.83d8bd8063942b58eace31b5e2ad7ebc.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Kompressa",
+        "riven_type": "pistol",
+        "id": "60e5b9014794450053e99964",
+        "url_name": "kompressa",
+        "icon": "icons/en/kompressa.818145317760f0094b03dbb57e622448.png",
+        "thumb": "icons/en/thumbs/kompressa.818145317760f0094b03dbb57e622448.128x128.png",
+        "icon_format": "port"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tenet Exec",
+        "riven_type": "melee",
+        "id": "60e5b9014794450053e99965",
+        "url_name": "tenet_exec",
+        "icon": "icons/en/tenet_exec.34824515181ac57467c400eadffbe575.png",
+        "thumb": "icons/en/thumbs/tenet_exec.34824515181ac57467c400eadffbe575.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tenet Grigori",
+        "riven_type": "melee",
+        "id": "60e5b9014794450053e99966",
+        "url_name": "tenet_grigori",
+        "icon": "icons/en/tenet_grigori.bf041c1c790f3d6a1835281129543585.png",
+        "thumb": "icons/en/thumbs/tenet_grigori.bf041c1c790f3d6a1835281129543585.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Ambassador",
+        "riven_type": "rifle",
+        "id": "60e5b9014794450053e99967",
+        "url_name": "ambassador",
+        "icon": "icons/en/ambassador.7ccc0f5c1047f5a0cd9f02de8d40b06f.png",
+        "thumb": "icons/en/thumbs/ambassador.7ccc0f5c1047f5a0cd9f02de8d40b06f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Cadus",
+        "riven_type": "melee",
+        "id": "60e5b9014794450053e99968",
+        "url_name": "cadus",
+        "icon": "icons/en/cadus.b26798533a21ebb73339ac124e24a1ec.png",
+        "thumb": "icons/en/thumbs/cadus.b26798533a21ebb73339ac124e24a1ec.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tenet Livia",
+        "riven_type": "melee",
+        "id": "60e5b9014794450053e99969",
+        "url_name": "tenet_livia",
+        "icon": "icons/en/tenet_livia.749f874a21213f3f5ccaf88b656fdaed.png",
+        "thumb": "icons/en/thumbs/tenet_livia.749f874a21213f3f5ccaf88b656fdaed.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "secondary",
+        "item_name": "Tenet Diplos",
+        "riven_type": "pistol",
+        "id": "60e5b9014794450053e9996a",
+        "url_name": "tenet_diplos",
+        "icon": "icons/en/tenet_diplos.41805fb8d83a9ffa68b2d4e9e79fc539.png",
+        "thumb": "icons/en/thumbs/tenet_diplos.41805fb8d83a9ffa68b2d4e9e79fc539.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Tenet Agendus",
+        "riven_type": "melee",
+        "id": "60e5b9014794450053e9996b",
+        "url_name": "tenet_agendus",
+        "icon": "icons/en/tenet_agendus.7924a44df9935ad357f046212cc2a774.png",
+        "thumb": "icons/en/thumbs/tenet_agendus.7924a44df9935ad357f046212cc2a774.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Lacerten",
+        "riven_type": "melee",
+        "id": "60f3feb1b64404003f0bf5ff",
+        "url_name": "lacerten",
+        "icon": "icons/en/lacerten.30515b31b75d43260a78b14fc04b3d6f.png",
+        "thumb": "icons/en/thumbs/lacerten.30515b31b75d43260a78b14fc04b3d6f.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Akaten",
+        "riven_type": "melee",
+        "id": "60f3feb1b64404003f0bf600",
+        "url_name": "akaten",
+        "icon": "icons/en/akaten.562efe7381e9c9a879f3c3d17f12fba0.png",
+        "thumb": "icons/en/thumbs/akaten.562efe7381e9c9a879f3c3d17f12fba0.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "sentinel",
+        "item_name": "Batoten",
+        "riven_type": "melee",
+        "id": "60f3feb1b64404003f0bf601",
+        "url_name": "batoten",
+        "icon": "icons/en/batoten.1f1dad1c92a029fb04418e2ad9914b31.png",
+        "thumb": "icons/en/thumbs/batoten.1f1dad1c92a029fb04418e2ad9914b31.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Vastilok",
+        "riven_type": "melee",
+        "id": "60fec673e5d505003b1d38b5",
+        "url_name": "vastilok",
+        "icon": "icons/en/vastilok.0d6a0cdb886e051eab8f6b4e26df3e99.png",
+        "thumb": "icons/en/thumbs/vastilok.0d6a0cdb886e051eab8f6b4e26df3e99.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Ghoulsaw",
+        "riven_type": "melee",
+        "id": "61460dcde330e600455dcea6",
+        "url_name": "ghoulsaw",
+        "icon": "icons/en/ghoulsaw.f9a355d3f35098841d346d536abd801c.png",
+        "thumb": "icons/en/thumbs/ghoulsaw.f9a355d3f35098841d346d536abd801c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Verdilac",
+        "riven_type": "melee",
+        "id": "61bb64fe3132ff00482b5fd8",
+        "url_name": "verdilac",
+        "icon": "icons/en/verdilac.31e782e181638b3877fc06bae4e616b9.png",
+        "thumb": "icons/en/thumbs/verdilac.31e782e181638b3877fc06bae4e616b9.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Nepheri",
+        "riven_type": "melee",
+        "id": "61bb64fe3132ff00482b5fd9",
+        "url_name": "nepheri",
+        "icon": "icons/en/nepheri.ba1daf808d7a71e3c8658da0f5ffdcb4.png",
+        "thumb": "icons/en/thumbs/nepheri.ba1daf808d7a71e3c8658da0f5ffdcb4.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Rumblejack",
+        "riven_type": "melee",
+        "id": "61bb64fe3132ff00482b5fda",
+        "url_name": "rumblejack",
+        "icon": "icons/en/rumblejack.93665a0884f96782697b3c133be0302b.png",
+        "thumb": "icons/en/thumbs/rumblejack.93665a0884f96782697b3c133be0302b.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Korumm",
+        "riven_type": "melee",
+        "id": "61bb64fe3132ff00482b5fdb",
+        "url_name": "korumm",
+        "icon": "icons/en/korumm.c466e7c5b58b31bca012b709e9bd7050.png",
+        "thumb": "icons/en/thumbs/korumm.c466e7c5b58b31bca012b709e9bd7050.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "melee",
+        "item_name": "Venato",
+        "riven_type": "melee",
+        "id": "61bb64fe3132ff00482b5fdc",
+        "url_name": "venato",
+        "icon": "icons/en/venato.eaa3a09851896a6aa8894ea20b6b054c.png",
+        "thumb": "icons/en/thumbs/venato.eaa3a09851896a6aa8894ea20b6b054c.128x128.png",
+        "icon_format": "land"
+      },
+      {
+        "group": "primary",
+        "item_name": "Nataruk",
+        "riven_type": "rifle",
+        "id": "61bb64fe3132ff00482b5fdd",
+        "url_name": "nataruk",
+        "icon": "icons/en/nataruk.d3fca407c70c6a55f9af6f33b243b767.png",
+        "thumb": "icons/en/thumbs/nataruk.d3fca407c70c6a55f9af6f33b243b767.128x128.png",
+        "icon_format": "port"
+      }
+    ]
+  }
+}

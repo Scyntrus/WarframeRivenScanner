@@ -1,0 +1,492 @@
+{
+  "payload": {
+    "attributes": [
+      {
+        "url_name": "ammo_maximum",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Bin",
+        "id": "5c5ca81a96e8d2003834fe63",
+        "units": "percent",
+        "effect": "Ammo Maximum",
+        "negative_only": false,
+        "exclusive_to": [
+          "shotgun",
+          "rifle",
+          "pistol",
+          "kitgun"
+        ],
+        "prefix": "Ampi"
+      },
+      {
+        "url_name": "damage_vs_corpus",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tron",
+        "id": "5c5ca81a96e8d2003834fe64",
+        "units": "percent",
+        "effect": "Damage to Corpus",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Manti"
+      },
+      {
+        "url_name": "damage_vs_grineer",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Con",
+        "id": "5c5ca81a96e8d2003834fe65",
+        "units": "percent",
+        "effect": "Damage to Grineer",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Argi"
+      },
+      {
+        "url_name": "damage_vs_infested",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Ada",
+        "id": "5c5ca81a96e8d2003834fe66",
+        "units": "percent",
+        "effect": "Damage to Infested",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Pura"
+      },
+      {
+        "url_name": "cold_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Do",
+        "id": "5c5ca81a96e8d2003834fe67",
+        "units": "percent",
+        "effect": "Cold",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Geli"
+      },
+      {
+        "url_name": "channeling_damage",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Um",
+        "id": "5c5ca81a96e8d2003834fe68",
+        "units": null,
+        "effect": "Initial combo",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Para"
+      },
+      {
+        "url_name": "channeling_efficiency",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Us",
+        "id": "5c5ca81a96e8d2003834fe69",
+        "units": "percent",
+        "effect": "Heavy Attack Efficiency",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Forti"
+      },
+      {
+        "url_name": "combo_duration",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Nem",
+        "id": "5c5ca81a96e8d2003834fe6a",
+        "units": "seconds",
+        "effect": "Combo Duration",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Tempi"
+      },
+      {
+        "url_name": "critical_chance",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Cron",
+        "id": "5c5ca81a96e8d2003834fe6b",
+        "units": "percent",
+        "effect": "Critical Chance",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Crita"
+      },
+      {
+        "url_name": "critical_chance_on_slide_attack",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Nent",
+        "id": "5c5ca81a96e8d2003834fe6c",
+        "units": "percent",
+        "effect": "Critical Chance for Slide Attack",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Pleci"
+      },
+      {
+        "url_name": "critical_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tis",
+        "id": "5c5ca81a96e8d2003834fe6d",
+        "units": "percent",
+        "effect": "Critical Damage",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Acri"
+      },
+      {
+        "url_name": "base_damage_/_melee_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Ata",
+        "id": "5c5ca81a96e8d2003834fe6e",
+        "units": "percent",
+        "effect": "Damage",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Visi"
+      },
+      {
+        "url_name": "electric_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tio",
+        "id": "5c5ca81a96e8d2003834fe6f",
+        "units": "percent",
+        "effect": "Electricity",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Vexi"
+      },
+      {
+        "url_name": "heat_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Pha",
+        "id": "5c5ca81a96e8d2003834fe70",
+        "units": "percent",
+        "effect": "Heat",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Igni"
+      },
+      {
+        "url_name": "finisher_damage",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Cta",
+        "id": "5c5ca81a96e8d2003834fe71",
+        "units": "percent",
+        "effect": "Finisher Damage",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Exi"
+      },
+      {
+        "url_name": "fire_rate_/_attack_speed",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Dra",
+        "id": "5c5ca81a96e8d2003834fe72",
+        "units": "percent",
+        "effect": "Fire Rate / Attack Speed",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Croni"
+      },
+      {
+        "url_name": "projectile_speed",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Nak",
+        "id": "5c5ca81a96e8d2003834fe73",
+        "units": "percent",
+        "effect": "Projectile speed",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Conci"
+      },
+      {
+        "url_name": "impact_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Ton",
+        "id": "5c5ca81a96e8d2003834fe74",
+        "units": "percent",
+        "effect": "Impact",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Magna"
+      },
+      {
+        "url_name": "magazine_capacity",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tin",
+        "id": "5c5ca81a96e8d2003834fe75",
+        "units": "percent",
+        "effect": "Magazine Capacity",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Arma"
+      },
+      {
+        "url_name": "multishot",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Can",
+        "id": "5c5ca81a96e8d2003834fe76",
+        "units": "percent",
+        "effect": "Multishot",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Sati"
+      },
+      {
+        "url_name": "toxin_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tox",
+        "id": "5c5ca81a96e8d2003834fe77",
+        "units": "percent",
+        "effect": "Toxin",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Toxi"
+      },
+      {
+        "url_name": "punch_through",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Nok",
+        "id": "5c5ca81a96e8d2003834fe78",
+        "units": null,
+        "effect": "Punch Through",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Lexi"
+      },
+      {
+        "url_name": "puncture_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Cak",
+        "id": "5c5ca81a96e8d2003834fe79",
+        "units": "percent",
+        "effect": "Puncture",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Insi"
+      },
+      {
+        "url_name": "reload_speed",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tak",
+        "id": "5c5ca81a96e8d2003834fe7a",
+        "units": "percent",
+        "effect": "Reload Speed",
+        "negative_only": false,
+        "exclusive_to": [
+          "shotgun",
+          "rifle",
+          "pistol",
+          "kitgun"
+        ],
+        "prefix": "Feva"
+      },
+      {
+        "url_name": "range",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Tor",
+        "id": "5c5ca81a96e8d2003834fe7b",
+        "units": null,
+        "effect": "Range",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Locti"
+      },
+      {
+        "url_name": "slash_damage",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Sus",
+        "id": "5c5ca81a96e8d2003834fe7c",
+        "units": "percent",
+        "effect": "Slash",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Sci"
+      },
+      {
+        "url_name": "status_chance",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Dex",
+        "id": "5c5ca81a96e8d2003834fe7d",
+        "units": "percent",
+        "effect": "Status Chance",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Hexa"
+      },
+      {
+        "url_name": "status_duration",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Des",
+        "id": "5c5ca81a96e8d2003834fe7e",
+        "units": "percent",
+        "effect": "Status Duration",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Deci"
+      },
+      {
+        "url_name": "recoil",
+        "group": "default",
+        "positive_is_negative": true,
+        "search_only": false,
+        "suffix": "Mag",
+        "id": "5c5ca81a96e8d2003834fe7f",
+        "units": "percent",
+        "effect": "Weapon Recoil",
+        "negative_only": false,
+        "exclusive_to": [
+          "shotgun",
+          "rifle",
+          "pistol",
+          "kitgun"
+        ],
+        "prefix": "Zeti"
+      },
+      {
+        "url_name": "zoom",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Lis",
+        "id": "5c5ca81a96e8d2003834fe80",
+        "units": "percent",
+        "effect": "Zoom",
+        "negative_only": false,
+        "exclusive_to": [
+          "shotgun",
+          "rifle",
+          "pistol",
+          "kitgun"
+        ],
+        "prefix": "Hera"
+      },
+      {
+        "url_name": "chance_to_gain_extra_combo_count",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Nus",
+        "id": "5dd001d3ff08fd0214d29be2",
+        "units": "percent",
+        "effect": "Additional Combo Count Chance",
+        "negative_only": false,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": "Laci"
+      },
+      {
+        "url_name": "chance_to_gain_combo_count",
+        "group": "melee",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": null,
+        "id": "602569349be2f26959a53d66",
+        "units": "percent",
+        "effect": "Chance to Gain Combo Count",
+        "negative_only": true,
+        "exclusive_to": [
+          "melee",
+          "zaw"
+        ],
+        "prefix": null
+      },
+      {
+        "url_name": "none",
+        "group": "top",
+        "positive_is_negative": false,
+        "search_only": true,
+        "suffix": "",
+        "id": "60537c332201ea0053ec2e5b",
+        "units": null,
+        "effect": "No Negative",
+        "negative_only": true,
+        "exclusive_to": null,
+        "prefix": ""
+      },
+      {
+        "url_name": "has",
+        "group": "top",
+        "positive_is_negative": false,
+        "search_only": true,
+        "suffix": "",
+        "id": "60537c332201ea0053ec2e5c",
+        "units": null,
+        "effect": "Has Negative",
+        "negative_only": true,
+        "exclusive_to": null,
+        "prefix": ""
+      }
+    ]
+  }
+}
