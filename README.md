@@ -4,7 +4,11 @@ Uses OCR to scan rivens and upload them to warframe.market.
 Does not detect polarity yet.  
 Requires game resolution of 1920x1080.  
 
-Instructions:
+Requirements:  
+- .NET Framework 4.8 - https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
+- vc_redist.x86 - https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+Instructions:  
 1. Type "[Riven Mod]" in chat to bring up the Riven Mod selection screen.
 2. Hover over a riven mod to show its stats.
 3. Make sure your cursor isn't over the text, then press Ctrl+F to take a screenshot.
@@ -23,4 +27,3 @@ Nuget Packages:
 - Some other ones by Microsoft if they're not included by default
 
 Code style? What's that?  
-The UI has no labels.  

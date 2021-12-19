@@ -140,7 +140,7 @@
     </Compile>
     <Compile Include="WeaponData.cs" />
     <Compile Include="WFMConnector.cs" />
-    <EmbeddedResource Include="MainFOrm.resx">
+    <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
