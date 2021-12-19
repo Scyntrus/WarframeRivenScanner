@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,30 +18,45 @@ namespace WarframeRivenScanner
     public String weapon_name { get; set; }
     public String riven_name { get; set; }
     public List<RivenAttribute> attributes = new List<RivenAttribute>();
+    public int mastery_rank { get; set; }
+    public int rerolls { get; set; }
   }
   class RivenParser
   {
-    Tesseract.ResultIterator iter;
+    TesseractEngine engine;
     GameDatabase db;
     RivenData result = new RivenData();
-    public RivenParser(GameDatabase db, Tesseract.ResultIterator iter)
+    public RivenParser(GameDatabase db, TesseractEngine engine)
     {
-      this.iter = iter;
+      this.engine = engine;
       this.db = db;
     }
-    public RivenData ParseRiven()
+    public RivenData GetResult()
     {
-      iter.Begin();
-      // Trim trash
-      while (iter.GetConfidence(PageIteratorLevel.Word) < 0.5)
-      {
-        iter.Next(PageIteratorLevel.Word);
-      }
-      ParseName();
-      ParseAttributes();
       return result;
     }
-    private void ParseName()
+    public void ParseNameAndAttributes(Bitmap bmp)
+    {
+      engine.SetVariable("matcher_bad_match_pad", .1);
+      engine.SetVariable("tessedit_char_whitelist", "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.%()+- ");
+
+      using (var page = engine.Process(bmp))
+      {
+        Console.WriteLine(page.GetText());
+        using (var iter = page.GetIterator())
+        {
+          iter.Begin();
+          // Trim trash
+          while (iter.GetConfidence(PageIteratorLevel.Word) < 0.5)
+          {
+            iter.Next(PageIteratorLevel.Word);
+          }
+          ParseName(iter);
+          ParseAttributes(iter);
+        }
+      }
+    }
+    private void ParseName(Tesseract.ResultIterator iter)
     {
       var full_name = new StringBuilder();
       bool add_space = false;
@@ -107,9 +123,9 @@ namespace WarframeRivenScanner
       return Convert.ToDecimal(buffer.ToString());
     }
 
-    private void ParseAttributes()
+    private void ParseAttributes(Tesseract.ResultIterator iter)
     {
-      while (true)
+      while (result.attributes.Count < 4 && !iter.IsAtFinalOf(PageIteratorLevel.Block, PageIteratorLevel.Word))
       {
         var attribute = new RivenAttribute();
         var value_token = iter.GetText(PageIteratorLevel.Word).Trim();
@@ -131,10 +147,29 @@ namespace WarframeRivenScanner
         }
         attribute.effect = db.MatchClosesRivenAttribute(attr_name_builder.ToString().Trim());
         result.attributes.Add(attribute);
-        if (result.attributes.Count >= 4 || iter.IsAtFinalOf(PageIteratorLevel.Block, PageIteratorLevel.Word))
-        {
-          return;
-        }
+      }
+    }
+
+    public void ParseMasteryRank(Bitmap bmp)
+    {
+      engine.SetVariable("matcher_bad_match_pad", .1);
+      engine.SetVariable("tessedit_char_whitelist", "MR 0123456789");
+
+      using (var page = engine.Process(bmp))
+      {
+        Console.WriteLine(page.GetText());
+        result.mastery_rank = (int) ExtractNumeric(page.GetText());
+      }
+    }
+    public void ParseRerolls(Bitmap bmp)
+    {
+      engine.SetVariable("matcher_bad_match_pad", .1);
+      engine.SetVariable("tessedit_char_whitelist", "0123456789");
+
+      using (var page = engine.Process(bmp))
+      {
+        Console.WriteLine(page.GetText());
+        result.rerolls = (int)ExtractNumeric(page.GetText());
       }
     }
   }

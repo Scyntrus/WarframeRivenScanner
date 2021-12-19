@@ -20,7 +20,10 @@ namespace WarframeRivenScanner
     Pen outlinePen;
     MainForm parent;
 
+    public Bitmap outputOriginalBitmap;
     public Bitmap outputStatsBitmap;
+    public Bitmap outputMrBitmap;
+    public Bitmap outputRerollsBitmap;
     public ScreenshotForm(MainForm p)
     {
       parent = p;
@@ -46,6 +49,8 @@ namespace WarframeRivenScanner
     }
     Rectangle fullRect = new Rectangle(-120, -20, 240, 350);
     Rectangle statsRect = new Rectangle(-114, 62, 228, 210);
+    Rectangle mrRect = new Rectangle(-92, 274, 120, 22);
+    Rectangle rerollRect = new Rectangle(28, 274, 64, 22);
     private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
     {
       DrawRectangles(e.Location);
@@ -56,16 +61,39 @@ namespace WarframeRivenScanner
       bufferGraphics.DrawImage(captureBitmap, new Point(0, 0));
       bufferGraphics.DrawRectangle(outlinePen, Offset(fullRect, position));
       bufferGraphics.DrawRectangle(outlinePen, Offset(statsRect, position));
+      bufferGraphics.DrawRectangle(outlinePen, Offset(mrRect, position));
+      bufferGraphics.DrawRectangle(outlinePen, Offset(rerollRect, position));
     }
 
     private void pictureBox1_Click(object sender, EventArgs e)
     {
       var position = Cursor.Position;
       {
+        outputOriginalBitmap = new Bitmap(fullRect.Width, fullRect.Height, PixelFormat.Format32bppArgb);
+        var g = Graphics.FromImage(outputOriginalBitmap);
+        g.Clear(Color.Red);
+        g.DrawImage(captureBitmap, 0, 0, Offset(fullRect, position), GraphicsUnit.Pixel);
+        g.Save();
+      }
+      {
         outputStatsBitmap = new Bitmap(statsRect.Width, statsRect.Height, PixelFormat.Format32bppArgb);
         var g = Graphics.FromImage(outputStatsBitmap);
         g.Clear(Color.Red);
         g.DrawImage(captureBitmap, 0, 0, Offset(statsRect, position), GraphicsUnit.Pixel);
+        g.Save();
+      }
+      {
+        outputMrBitmap = new Bitmap(mrRect.Width, mrRect.Height, PixelFormat.Format32bppArgb);
+        var g = Graphics.FromImage(outputMrBitmap);
+        g.Clear(Color.Red);
+        g.DrawImage(captureBitmap, 0, 0, Offset(mrRect, position), GraphicsUnit.Pixel);
+        g.Save();
+      }
+      {
+        outputRerollsBitmap = new Bitmap(rerollRect.Width, rerollRect.Height, PixelFormat.Format32bppArgb);
+        var g = Graphics.FromImage(outputRerollsBitmap);
+        g.Clear(Color.Red);
+        g.DrawImage(captureBitmap, 0, 0, Offset(rerollRect, position), GraphicsUnit.Pixel);
         g.Save();
       }
       Hide();
