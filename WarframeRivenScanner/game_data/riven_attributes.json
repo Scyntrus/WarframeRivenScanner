@@ -499,32 +499,6 @@
           "zaw"
         ],
         "prefix": null
-      },
-      {
-        "url_name": "none",
-        "group": "top",
-        "positive_is_negative": false,
-        "search_only": true,
-        "suffix": "",
-        "id": "60537c332201ea0053ec2e5b",
-        "units": null,
-        "effect": "No Negative",
-        "negative_only": true,
-        "exclusive_to": null,
-        "prefix": ""
-      },
-      {
-        "url_name": "has",
-        "group": "top",
-        "positive_is_negative": false,
-        "search_only": true,
-        "suffix": "",
-        "id": "60537c332201ea0053ec2e5c",
-        "units": null,
-        "effect": "Has Negative",
-        "negative_only": true,
-        "exclusive_to": null,
-        "prefix": ""
       }
     ]
   }

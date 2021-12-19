@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -17,14 +18,13 @@ namespace WarframeRivenScanner
   {
     private IKeyboardMouseEvents m_GlobalHook;
     ScreenshotForm screenForm;
-    TesseractEngine engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default);
-    GameDatabase gameDatabase = new GameDatabase();
-    private WFMConnector wfm = new WFMConnector();
+    TesseractEngine engine;
+    GameDatabase gameDatabase;
+    private WFMConnector wfm;
 
     public MainForm()
     {
       InitializeComponent();
-      m_GlobalHook = Hook.GlobalEvents();
       screenForm = new ScreenshotForm(this);
       screenForm.Show();
     }
@@ -35,13 +35,23 @@ namespace WarframeRivenScanner
 
     private void MainForm_Load(object sender, EventArgs e)
     {
+      screenForm.Hide();
+      emailBox.Text = Properties.Settings.Default.email;
+      try
+      {
+        engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default);
+      } catch (TargetInvocationException ex)
+      {
+        MessageBox.Show("If you get this error you probably need to install vc_redist.x86\n\n" + ex.ToString());
+      }
+      gameDatabase = new GameDatabase();
+      wfm = new WFMConnector();
+      m_GlobalHook = Hook.GlobalEvents();
       var map = new Dictionary<Combination, Action>
             {
                 {Combination.FromString("Control+F"), StartScreenshot},
             };
       m_GlobalHook.OnCombination(map);
-      screenForm.Hide();
-      emailBox.Text = Properties.Settings.Default.email;
     }
 
     private void StartScreenshot()
