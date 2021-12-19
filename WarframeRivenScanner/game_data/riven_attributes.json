@@ -133,6 +133,19 @@
         "prefix": "Crita"
       },
       {
+        "url_name": "critical_chance",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Cron",
+        "id": "5c5ca81a96e8d2003834fe6b",
+        "units": "percent",
+        "effect": "Critical Chance (x2 for Heavy Attacks)",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Crita"
+      },
+      {
         "url_name": "critical_chance_on_slide_attack",
         "group": "melee",
         "positive_is_negative": false,
@@ -225,6 +238,32 @@
         "id": "5c5ca81a96e8d2003834fe72",
         "units": "percent",
         "effect": "Fire Rate / Attack Speed",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Croni"
+      },
+      {
+        "url_name": "fire_rate_/_attack_speed",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Dra",
+        "id": "5c5ca81a96e8d2003834fe72",
+        "units": "percent",
+        "effect": "Fire Rate (x2 for Bows)",
+        "negative_only": false,
+        "exclusive_to": null,
+        "prefix": "Croni"
+      },
+      {
+        "url_name": "fire_rate_/_attack_speed",
+        "group": "default",
+        "positive_is_negative": false,
+        "search_only": false,
+        "suffix": "Dra",
+        "id": "5c5ca81a96e8d2003834fe72",
+        "units": "percent",
+        "effect": "Attack Speed",
         "negative_only": false,
         "exclusive_to": null,
         "prefix": "Croni"

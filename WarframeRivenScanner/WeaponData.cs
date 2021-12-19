@@ -27,12 +27,69 @@ namespace WarframeRivenScanner
     public string icon_format { get; set; }
   }
 
+  class RivenAttributesWrapper
+  {
+    public RivenAttributesPayload payload { get; set; }
+  }
+  class RivenAttributesPayload
+  {
+    public List<RivenAttributeDB> attributes { get; set; }
+  }
+  class RivenAttributeDB
+  {
+    public string url_name { get; set; }
+    public string group { get; set; }
+    public bool positive_is_negative { get; set; }
+    public bool search_only { get; set; }
+    public string suffix { get; set; }
+    public string id { get; set; }
+    public string units { get; set; }
+    public string effect { get; set; }
+    public bool negative_only { get; set; }
+    public List<String> exclusive_to { get; set; }
+    public string prefix { get; set; }
+  }
+
   public class GameDatabase
   {
     WeaponDataWrapper weapon_data;
+    RivenAttributesWrapper riven_data;
     public GameDatabase()
     {
       weapon_data = System.Text.Json.JsonSerializer.Deserialize<WeaponDataWrapper>(File.ReadAllText(@".\game_data\all_items.json"));
+      riven_data = System.Text.Json.JsonSerializer.Deserialize<RivenAttributesWrapper>(File.ReadAllText(@".\game_data\riven_attributes.json"));
+    }
+
+    public T FindMinBy<T>(List<T> list, Converter<T, int> projection) where T : new()
+    {
+      if (list.Count == 0)
+      {
+        throw new InvalidOperationException("Empty list");
+      }
+      int minValue = int.MaxValue;
+      T result = new T();
+      foreach (T item in list)
+      {
+        int value = projection(item);
+        if (value < minValue)
+        {
+          minValue = value;
+          result = item;
+        }
+      }
+      return result;
+    }
+    public String MatchClosestWeapon(String test_name)
+    {
+      Fastenshtein.Levenshtein lev = new Fastenshtein.Levenshtein(test_name);
+      var ClosestWeapon = FindMinBy(weapon_data.payload.items, x => lev.DistanceFrom(x.item_name));
+      return ClosestWeapon.item_name;
+    }
+    public String MatchClosesRivenAttribute(String test_name)
+    {
+      Fastenshtein.Levenshtein lev = new Fastenshtein.Levenshtein(test_name);
+      var ClosestAttribute = FindMinBy(riven_data.payload.attributes, x => lev.DistanceFrom(x.effect));
+      return ClosestAttribute.effect;
     }
   }
 }

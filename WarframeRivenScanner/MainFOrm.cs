@@ -82,7 +82,30 @@ namespace WarframeRivenScanner
         {
           textBox1.Text = page.GetText();
           var iter = page.GetIterator();
-          ParseRiven(ref iter);
+          var parser = new RivenParser(gameDatabase, iter);
+          var riven_data = parser.ParseRiven();
+          weaponNameBox.Text = riven_data.weapon_name;
+          rivenNameBox.Text = riven_data.riven_name;
+          if (riven_data.attributes.Count >= 1)
+          {
+            attr1ValueBox.Text = riven_data.attributes[0].value.ToString();
+            attr1EffectBox.Text = riven_data.attributes[0].effect;
+          }
+          if (riven_data.attributes.Count >= 2)
+          {
+            attr2ValueBox.Text = riven_data.attributes[1].value.ToString();
+            attr2EffectBox.Text = riven_data.attributes[1].effect;
+          }
+          if (riven_data.attributes.Count >= 3)
+          {
+            attr3ValueBox.Text = riven_data.attributes[2].value.ToString();
+            attr3EffectBox.Text = riven_data.attributes[2].effect;
+          }
+          if (riven_data.attributes.Count >= 4)
+          {
+            attr4ValueBox.Text = riven_data.attributes[3].value.ToString();
+            attr4EffectBox.Text = riven_data.attributes[3].effect;
+          }
           iter.Dispose();
           page.Dispose();
         }
@@ -90,80 +113,10 @@ namespace WarframeRivenScanner
       catch (Exception ex)
       {
         Console.WriteLine(ex.Message);
+        Console.WriteLine(ex.StackTrace);
       }
       TopMost = true;
       TopMost = false;
-    }
-
-    void ParseRiven(ref Tesseract.ResultIterator iter)
-    {
-      iter.Begin();
-      while (iter.GetConfidence(PageIteratorLevel.Word) < 0.5)
-      {
-        iter.Next(PageIteratorLevel.Word);
-      }
-      var full_name = new StringBuilder();
-      bool add_space = false;
-      while (true)
-      {
-        var token = iter.GetText(PageIteratorLevel.Word).Trim();
-        if (token.EndsWith("%") || token.Contains("+"))
-        {
-          break;
-        }
-        if (add_space)
-        {
-          full_name.Append(" ");
-        }
-        if (token.EndsWith("."))
-        {
-          token = token.Replace(".", "-");
-        }
-        full_name.Append(token);
-        add_space = !(token.Length == 0 || token.EndsWith("-"));
-        if (!iter.Next(PageIteratorLevel.Word))
-        {
-          break;
-        }
-      }
-      var full_name_str = full_name.ToString();
-      var weapon_name_start = full_name_str.LastIndexOf(" ");
-      weapon_name_start = full_name_str.LastIndexOf(" ", weapon_name_start - 1);
-      weapon_name_start = full_name_str.LastIndexOf(" ", weapon_name_start - 1) + 1;
-      weaponNameBox.Text = full_name_str.Substring(weapon_name_start, full_name_str.LastIndexOf(" ") - weapon_name_start);
-      rivenNameBox.Text = full_name_str.Substring(full_name_str.LastIndexOf(" ") + 1);
-      return;
-      do
-      {
-        do
-        {
-          do
-          {
-            do
-            {
-              if (iter.IsAtBeginningOf(PageIteratorLevel.Block))
-              {
-                Console.WriteLine("<BLOCK>");
-              }
-
-              Console.Write("[" + iter.GetConfidence(PageIteratorLevel.Word) + "]");
-              Console.Write(iter.GetText(PageIteratorLevel.Word));
-              Console.Write(" ");
-
-              if (iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
-              {
-                Console.WriteLine();
-              }
-            } while (iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word));
-
-            if (iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
-            {
-              Console.WriteLine();
-            }
-          } while (iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine));
-        } while (iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para));
-      } while (iter.Next(PageIteratorLevel.Block));
-
     }
   }
 }
