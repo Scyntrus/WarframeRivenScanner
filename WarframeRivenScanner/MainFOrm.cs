@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tesseract;
@@ -36,7 +37,7 @@ namespace WarframeRivenScanner
     {
       var map = new Dictionary<Combination, Action>
             {
-                {Combination.FromString("Control+C"), StartScreenshot},
+                {Combination.FromString("Control+F"), StartScreenshot},
             };
       m_GlobalHook.OnCombination(map);
       screenForm.Hide();
@@ -86,7 +87,8 @@ namespace WarframeRivenScanner
         Bitmap bmp = ApplyPurpleTransform(screenForm.outputStatsBitmap);
         statsPicBox.Image = bmp;
         parser.ParseNameAndAttributes(bmp);
-      } catch (Exception ex)
+      }
+      catch (Exception ex)
       {
         MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
       }
@@ -156,11 +158,76 @@ namespace WarframeRivenScanner
       {
         uploadBtn.Enabled = true;
         tabControl1.SelectedTab = tabPage2;
-      } else
+      }
+      else
       {
         MessageBox.Show("Failed to login");
       }
       loginBtn.Enabled = true;
+    }
+
+    private void uploadBtn_Click(object sender, EventArgs e)
+    {
+      var a = new AuctionCreateJson();
+      a.starting_price = (int)priceBox.Value;
+      a.buyout_price = (int)priceBox.Value;
+      a.item.name = rivenNameBox.Text;
+      a.item.mastery_level = (int)mrBox.Value;
+      a.item.re_rolls = (int)rerollBox.Value;
+      a.item.mod_rank = (int)modRankBox.Value;
+      switch (polarityBox.SelectedIndex)
+      {
+        case 0:
+          MessageBox.Show("You must select a polarity.");
+          return;
+        case 1:
+          a.item.polarity = "madurai";
+          break;
+        case 2:
+          a.item.polarity = "vazarin";
+          break;
+        case 3:
+          a.item.polarity = "naramon";
+          break;
+      }
+      a.item.weapon_url_name = gameDatabase.MatchClosestWeapon(weaponNameBox.Text).url_name;
+      if (attr1ValueBox.Value != 0 && attr1EffectBox.Text.Length > 0)
+      {
+        var att = new RivenAttributeAuctionEntry();
+        var att_entry = gameDatabase.MatchClosesRivenAttribute(attr1EffectBox.Text);
+        att.url_name = att_entry.url_name;
+        att.value = attr1ValueBox.Value;
+        att.positive = att_entry.positive_is_negative ? attr1ValueBox.Value < 0 : attr1ValueBox.Value > 0;
+        a.item.attributes.Add(att);
+      }
+      if (attr2ValueBox.Value != 0 && attr2EffectBox.Text.Length > 0)
+      {
+        var att = new RivenAttributeAuctionEntry();
+        var att_entry = gameDatabase.MatchClosesRivenAttribute(attr2EffectBox.Text);
+        att.url_name = att_entry.url_name;
+        att.value = attr2ValueBox.Value;
+        att.positive = att_entry.positive_is_negative ? attr2ValueBox.Value < 0 : attr2ValueBox.Value > 0;
+        a.item.attributes.Add(att);
+      }
+      if (attr3ValueBox.Value != 0 && attr3EffectBox.Text.Length > 0)
+      {
+        var att = new RivenAttributeAuctionEntry();
+        var att_entry = gameDatabase.MatchClosesRivenAttribute(attr3EffectBox.Text);
+        att.url_name = att_entry.url_name;
+        att.value = attr3ValueBox.Value;
+        att.positive = att_entry.positive_is_negative ? attr3ValueBox.Value < 0 : attr3ValueBox.Value > 0;
+        a.item.attributes.Add(att);
+      }
+      if (attr4ValueBox.Value != 0 && attr4EffectBox.Text.Length > 0)
+      {
+        var att = new RivenAttributeAuctionEntry();
+        var att_entry = gameDatabase.MatchClosesRivenAttribute(attr4EffectBox.Text);
+        att.url_name = att_entry.url_name;
+        att.value = attr4ValueBox.Value;
+        att.positive = att_entry.positive_is_negative ? attr4ValueBox.Value < 0 : attr4ValueBox.Value > 0;
+        a.item.attributes.Add(att);
+      }
+      wfm.UploadRiven(a);
     }
   }
 }

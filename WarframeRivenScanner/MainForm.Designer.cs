@@ -35,8 +35,6 @@
       this.attr2EffectBox = new System.Windows.Forms.TextBox();
       this.attr3EffectBox = new System.Windows.Forms.TextBox();
       this.attr4EffectBox = new System.Windows.Forms.TextBox();
-      this.mrBox = new System.Windows.Forms.TextBox();
-      this.rerollBox = new System.Windows.Forms.TextBox();
       this.polarityBox = new System.Windows.Forms.ComboBox();
       this.mrPicBox = new System.Windows.Forms.PictureBox();
       this.rerollsPicBox = new System.Windows.Forms.PictureBox();
@@ -54,6 +52,8 @@
       this.loginBtn = new System.Windows.Forms.Button();
       this.priceBox = new System.Windows.Forms.NumericUpDown();
       this.uploadBtn = new System.Windows.Forms.Button();
+      this.mrBox = new System.Windows.Forms.NumericUpDown();
+      this.rerollBox = new System.Windows.Forms.NumericUpDown();
       ((System.ComponentModel.ISupportInitialize)(this.statsPicBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.mrPicBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.rerollsPicBox)).BeginInit();
@@ -67,6 +67,8 @@
       this.tabPage1.SuspendLayout();
       this.tabPage2.SuspendLayout();
       ((System.ComponentModel.ISupportInitialize)(this.priceBox)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.mrBox)).BeginInit();
+      ((System.ComponentModel.ISupportInitialize)(this.rerollBox)).BeginInit();
       this.SuspendLayout();
       // 
       // statsPicBox
@@ -119,22 +121,9 @@
       this.attr4EffectBox.Size = new System.Drawing.Size(123, 20);
       this.attr4EffectBox.TabIndex = 12;
       // 
-      // mrBox
-      // 
-      this.mrBox.Location = new System.Drawing.Point(547, 170);
-      this.mrBox.Name = "mrBox";
-      this.mrBox.Size = new System.Drawing.Size(100, 20);
-      this.mrBox.TabIndex = 13;
-      // 
-      // rerollBox
-      // 
-      this.rerollBox.Location = new System.Drawing.Point(547, 196);
-      this.rerollBox.Name = "rerollBox";
-      this.rerollBox.Size = new System.Drawing.Size(100, 20);
-      this.rerollBox.TabIndex = 14;
-      // 
       // polarityBox
       // 
+      this.polarityBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
       this.polarityBox.FormattingEnabled = true;
       this.polarityBox.Items.AddRange(new object[] {
             "Select Polarity",
@@ -363,14 +352,51 @@
       this.uploadBtn.Name = "uploadBtn";
       this.uploadBtn.Size = new System.Drawing.Size(75, 23);
       this.uploadBtn.TabIndex = 1;
-      this.uploadBtn.Text = "button1";
+      this.uploadBtn.Text = "Upload";
       this.uploadBtn.UseVisualStyleBackColor = true;
+      this.uploadBtn.Click += new System.EventHandler(this.uploadBtn_Click);
+      // 
+      // mrBox
+      // 
+      this.mrBox.Location = new System.Drawing.Point(547, 169);
+      this.mrBox.Maximum = new decimal(new int[] {
+            16,
+            0,
+            0,
+            0});
+      this.mrBox.Minimum = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+      this.mrBox.Name = "mrBox";
+      this.mrBox.Size = new System.Drawing.Size(101, 20);
+      this.mrBox.TabIndex = 26;
+      this.mrBox.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
+      // 
+      // rerollBox
+      // 
+      this.rerollBox.Location = new System.Drawing.Point(547, 195);
+      this.rerollBox.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+      this.rerollBox.Name = "rerollBox";
+      this.rerollBox.Size = new System.Drawing.Size(101, 20);
+      this.rerollBox.TabIndex = 27;
       // 
       // MainForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(789, 450);
+      this.Controls.Add(this.rerollBox);
+      this.Controls.Add(this.mrBox);
       this.Controls.Add(this.tabControl1);
       this.Controls.Add(this.attr4ValueBox);
       this.Controls.Add(this.attr3ValueBox);
@@ -381,8 +407,6 @@
       this.Controls.Add(this.rerollsPicBox);
       this.Controls.Add(this.mrPicBox);
       this.Controls.Add(this.polarityBox);
-      this.Controls.Add(this.rerollBox);
-      this.Controls.Add(this.mrBox);
       this.Controls.Add(this.attr4EffectBox);
       this.Controls.Add(this.attr3EffectBox);
       this.Controls.Add(this.attr2EffectBox);
@@ -407,6 +431,8 @@
       this.tabPage1.PerformLayout();
       this.tabPage2.ResumeLayout(false);
       ((System.ComponentModel.ISupportInitialize)(this.priceBox)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.mrBox)).EndInit();
+      ((System.ComponentModel.ISupportInitialize)(this.rerollBox)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -420,8 +446,6 @@
     private System.Windows.Forms.TextBox attr2EffectBox;
     private System.Windows.Forms.TextBox attr3EffectBox;
     private System.Windows.Forms.TextBox attr4EffectBox;
-    private System.Windows.Forms.TextBox mrBox;
-    private System.Windows.Forms.TextBox rerollBox;
     private System.Windows.Forms.ComboBox polarityBox;
     private System.Windows.Forms.PictureBox mrPicBox;
     private System.Windows.Forms.PictureBox rerollsPicBox;
@@ -439,6 +463,8 @@
     private System.Windows.Forms.TabPage tabPage2;
     private System.Windows.Forms.Button uploadBtn;
     private System.Windows.Forms.NumericUpDown priceBox;
+    private System.Windows.Forms.NumericUpDown mrBox;
+    private System.Windows.Forms.NumericUpDown rerollBox;
   }
 }
 
