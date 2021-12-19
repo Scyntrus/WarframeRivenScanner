@@ -15,7 +15,7 @@ namespace WarframeRivenScanner
   {
     public List<WeaponData> items { get; set; }
   }
-  class WeaponData
+  public class WeaponData
   {
     public string group { get; set; }
     public string item_name { get; set; }
@@ -33,9 +33,9 @@ namespace WarframeRivenScanner
   }
   class RivenAttributesPayload
   {
-    public List<RivenAttributeDB> attributes { get; set; }
+    public List<RivenAttributeInfo> attributes { get; set; }
   }
-  class RivenAttributeDB
+  public class RivenAttributeInfo
   {
     public string url_name { get; set; }
     public string group { get; set; }
@@ -79,17 +79,17 @@ namespace WarframeRivenScanner
       }
       return result;
     }
-    public String MatchClosestWeapon(String test_name)
+    public WeaponData MatchClosestWeapon(String test_name)
     {
       Fastenshtein.Levenshtein lev = new Fastenshtein.Levenshtein(test_name);
       var ClosestWeapon = FindMinBy(weapon_data.payload.items, x => lev.DistanceFrom(x.item_name));
-      return ClosestWeapon.item_name;
+      return ClosestWeapon;
     }
-    public String MatchClosesRivenAttribute(String test_name)
+    public RivenAttributeInfo MatchClosesRivenAttribute(String test_name)
     {
       Fastenshtein.Levenshtein lev = new Fastenshtein.Levenshtein(test_name);
       var ClosestAttribute = FindMinBy(riven_data.payload.attributes, x => lev.DistanceFrom(x.effect));
-      return ClosestAttribute.effect;
+      return ClosestAttribute;
     }
   }
 }

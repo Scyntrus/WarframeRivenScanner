@@ -87,7 +87,7 @@ namespace WarframeRivenScanner
       weapon_name_start = full_name_str.LastIndexOf(" ", Math.Max(weapon_name_start - 1, 0));
       weapon_name_start = full_name_str.LastIndexOf(" ", Math.Max(weapon_name_start - 1, 0)) + 1;
       var weapon_name = full_name_str.Substring(weapon_name_start, full_name_str.LastIndexOf(" ") - weapon_name_start);
-      weapon_name = db.MatchClosestWeapon(weapon_name);
+      weapon_name = db.MatchClosestWeapon(weapon_name).item_name;
       result.weapon_name = weapon_name;
       result.riven_name = full_name_str.Substring(full_name_str.LastIndexOf(" ") + 1);
     }
@@ -145,7 +145,7 @@ namespace WarframeRivenScanner
           attr_name_builder.Append(token);
           attr_name_builder.Append(' ');
         }
-        attribute.effect = db.MatchClosesRivenAttribute(attr_name_builder.ToString().Trim());
+        attribute.effect = db.MatchClosesRivenAttribute(attr_name_builder.ToString().Trim()).effect;
         result.attributes.Add(attribute);
       }
     }

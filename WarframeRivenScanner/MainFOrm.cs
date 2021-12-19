@@ -18,6 +18,7 @@ namespace WarframeRivenScanner
     ScreenshotForm screenForm;
     TesseractEngine engine = new TesseractEngine(@"./tessdata", "eng", EngineMode.Default);
     GameDatabase gameDatabase = new GameDatabase();
+    private WFMConnector wfm = new WFMConnector();
 
     public MainForm()
     {
@@ -112,6 +113,14 @@ namespace WarframeRivenScanner
       var riven_data = parser.GetResult();
       weaponNameBox.Text = riven_data.weapon_name;
       rivenNameBox.Text = riven_data.riven_name;
+      attr1ValueBox.Text = "";
+      attr1EffectBox.Text = "";
+      attr2ValueBox.Text = "";
+      attr2EffectBox.Text = "";
+      attr3ValueBox.Text = "";
+      attr3EffectBox.Text = "";
+      attr4ValueBox.Text = "";
+      attr4EffectBox.Text = "";
       if (riven_data.attributes.Count >= 1)
       {
         attr1ValueBox.Text = riven_data.attributes[0].value.ToString();
@@ -137,6 +146,21 @@ namespace WarframeRivenScanner
       polarityBox.SelectedIndex = 0;
       TopMost = true;
       TopMost = false;
+    }
+
+    private async void loginBtn_Click(object sender, EventArgs e)
+    {
+      loginBtn.Enabled = false;
+      uploadBtn.Enabled = false;
+      if (await wfm.Login(emailBox.Text, passwordBox.Text))
+      {
+        uploadBtn.Enabled = true;
+        tabControl1.SelectedTab = tabPage2;
+      } else
+      {
+        MessageBox.Show("Failed to login");
+      }
+      loginBtn.Enabled = true;
     }
   }
 }

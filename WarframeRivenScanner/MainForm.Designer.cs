@@ -46,6 +46,14 @@
       this.attr2ValueBox = new System.Windows.Forms.NumericUpDown();
       this.attr3ValueBox = new System.Windows.Forms.NumericUpDown();
       this.attr4ValueBox = new System.Windows.Forms.NumericUpDown();
+      this.tabControl1 = new System.Windows.Forms.TabControl();
+      this.tabPage1 = new System.Windows.Forms.TabPage();
+      this.tabPage2 = new System.Windows.Forms.TabPage();
+      this.emailBox = new System.Windows.Forms.TextBox();
+      this.passwordBox = new System.Windows.Forms.TextBox();
+      this.loginBtn = new System.Windows.Forms.Button();
+      this.priceBox = new System.Windows.Forms.NumericUpDown();
+      this.uploadBtn = new System.Windows.Forms.Button();
       ((System.ComponentModel.ISupportInitialize)(this.statsPicBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.mrPicBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.rerollsPicBox)).BeginInit();
@@ -55,6 +63,10 @@
       ((System.ComponentModel.ISupportInitialize)(this.attr2ValueBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.attr3ValueBox)).BeginInit();
       ((System.ComponentModel.ISupportInitialize)(this.attr4ValueBox)).BeginInit();
+      this.tabControl1.SuspendLayout();
+      this.tabPage1.SuspendLayout();
+      this.tabPage2.SuspendLayout();
+      ((System.ComponentModel.ISupportInitialize)(this.priceBox)).BeginInit();
       this.SuspendLayout();
       // 
       // statsPicBox
@@ -67,56 +79,56 @@
       // 
       // weaponNameBox
       // 
-      this.weaponNameBox.Location = new System.Drawing.Point(529, 103);
+      this.weaponNameBox.Location = new System.Drawing.Point(547, 12);
       this.weaponNameBox.Name = "weaponNameBox";
       this.weaponNameBox.Size = new System.Drawing.Size(230, 20);
       this.weaponNameBox.TabIndex = 3;
       // 
       // rivenNameBox
       // 
-      this.rivenNameBox.Location = new System.Drawing.Point(529, 130);
+      this.rivenNameBox.Location = new System.Drawing.Point(547, 39);
       this.rivenNameBox.Name = "rivenNameBox";
       this.rivenNameBox.Size = new System.Drawing.Size(230, 20);
       this.rivenNameBox.TabIndex = 4;
       // 
       // attr1EffectBox
       // 
-      this.attr1EffectBox.Location = new System.Drawing.Point(636, 156);
+      this.attr1EffectBox.Location = new System.Drawing.Point(654, 65);
       this.attr1EffectBox.Name = "attr1EffectBox";
       this.attr1EffectBox.Size = new System.Drawing.Size(123, 20);
       this.attr1EffectBox.TabIndex = 6;
       // 
       // attr2EffectBox
       // 
-      this.attr2EffectBox.Location = new System.Drawing.Point(636, 182);
+      this.attr2EffectBox.Location = new System.Drawing.Point(654, 91);
       this.attr2EffectBox.Name = "attr2EffectBox";
       this.attr2EffectBox.Size = new System.Drawing.Size(123, 20);
       this.attr2EffectBox.TabIndex = 8;
       // 
       // attr3EffectBox
       // 
-      this.attr3EffectBox.Location = new System.Drawing.Point(636, 208);
+      this.attr3EffectBox.Location = new System.Drawing.Point(654, 117);
       this.attr3EffectBox.Name = "attr3EffectBox";
       this.attr3EffectBox.Size = new System.Drawing.Size(123, 20);
       this.attr3EffectBox.TabIndex = 10;
       // 
       // attr4EffectBox
       // 
-      this.attr4EffectBox.Location = new System.Drawing.Point(636, 234);
+      this.attr4EffectBox.Location = new System.Drawing.Point(654, 143);
       this.attr4EffectBox.Name = "attr4EffectBox";
       this.attr4EffectBox.Size = new System.Drawing.Size(123, 20);
       this.attr4EffectBox.TabIndex = 12;
       // 
       // mrBox
       // 
-      this.mrBox.Location = new System.Drawing.Point(529, 261);
+      this.mrBox.Location = new System.Drawing.Point(547, 170);
       this.mrBox.Name = "mrBox";
       this.mrBox.Size = new System.Drawing.Size(100, 20);
       this.mrBox.TabIndex = 13;
       // 
       // rerollBox
       // 
-      this.rerollBox.Location = new System.Drawing.Point(529, 287);
+      this.rerollBox.Location = new System.Drawing.Point(547, 196);
       this.rerollBox.Name = "rerollBox";
       this.rerollBox.Size = new System.Drawing.Size(100, 20);
       this.rerollBox.TabIndex = 14;
@@ -129,7 +141,7 @@
             "(V) Madurai",
             "(D) Vazarin",
             "(-) Naramon"});
-      this.polarityBox.Location = new System.Drawing.Point(529, 314);
+      this.polarityBox.Location = new System.Drawing.Point(547, 223);
       this.polarityBox.Name = "polarityBox";
       this.polarityBox.Size = new System.Drawing.Size(121, 21);
       this.polarityBox.TabIndex = 15;
@@ -160,7 +172,7 @@
       // 
       // modRankBox
       // 
-      this.modRankBox.Location = new System.Drawing.Point(529, 343);
+      this.modRankBox.Location = new System.Drawing.Point(547, 252);
       this.modRankBox.Maximum = new decimal(new int[] {
             10,
             0,
@@ -178,7 +190,7 @@
             0,
             0,
             65536});
-      this.attr1ValueBox.Location = new System.Drawing.Point(529, 157);
+      this.attr1ValueBox.Location = new System.Drawing.Point(547, 66);
       this.attr1ValueBox.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -201,7 +213,7 @@
             0,
             0,
             65536});
-      this.attr2ValueBox.Location = new System.Drawing.Point(529, 183);
+      this.attr2ValueBox.Location = new System.Drawing.Point(547, 92);
       this.attr2ValueBox.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -224,7 +236,7 @@
             0,
             0,
             65536});
-      this.attr3ValueBox.Location = new System.Drawing.Point(529, 208);
+      this.attr3ValueBox.Location = new System.Drawing.Point(547, 117);
       this.attr3ValueBox.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -247,7 +259,7 @@
             0,
             0,
             65536});
-      this.attr4ValueBox.Location = new System.Drawing.Point(529, 234);
+      this.attr4ValueBox.Location = new System.Drawing.Point(547, 143);
       this.attr4ValueBox.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -262,11 +274,104 @@
       this.attr4ValueBox.Size = new System.Drawing.Size(101, 20);
       this.attr4ValueBox.TabIndex = 23;
       // 
+      // tabControl1
+      // 
+      this.tabControl1.Controls.Add(this.tabPage1);
+      this.tabControl1.Controls.Add(this.tabPage2);
+      this.tabControl1.Location = new System.Drawing.Point(547, 287);
+      this.tabControl1.Name = "tabControl1";
+      this.tabControl1.SelectedIndex = 0;
+      this.tabControl1.Size = new System.Drawing.Size(230, 116);
+      this.tabControl1.TabIndex = 25;
+      // 
+      // tabPage1
+      // 
+      this.tabPage1.Controls.Add(this.loginBtn);
+      this.tabPage1.Controls.Add(this.passwordBox);
+      this.tabPage1.Controls.Add(this.emailBox);
+      this.tabPage1.Location = new System.Drawing.Point(4, 22);
+      this.tabPage1.Name = "tabPage1";
+      this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+      this.tabPage1.Size = new System.Drawing.Size(222, 90);
+      this.tabPage1.TabIndex = 0;
+      this.tabPage1.Text = "Login";
+      this.tabPage1.UseVisualStyleBackColor = true;
+      // 
+      // tabPage2
+      // 
+      this.tabPage2.Controls.Add(this.uploadBtn);
+      this.tabPage2.Controls.Add(this.priceBox);
+      this.tabPage2.Location = new System.Drawing.Point(4, 22);
+      this.tabPage2.Name = "tabPage2";
+      this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+      this.tabPage2.Size = new System.Drawing.Size(222, 90);
+      this.tabPage2.TabIndex = 1;
+      this.tabPage2.Text = "Upload";
+      this.tabPage2.UseVisualStyleBackColor = true;
+      // 
+      // emailBox
+      // 
+      this.emailBox.Location = new System.Drawing.Point(7, 7);
+      this.emailBox.Name = "emailBox";
+      this.emailBox.Size = new System.Drawing.Size(100, 20);
+      this.emailBox.TabIndex = 0;
+      // 
+      // passwordBox
+      // 
+      this.passwordBox.Location = new System.Drawing.Point(7, 34);
+      this.passwordBox.Name = "passwordBox";
+      this.passwordBox.PasswordChar = '*';
+      this.passwordBox.Size = new System.Drawing.Size(100, 20);
+      this.passwordBox.TabIndex = 1;
+      // 
+      // loginBtn
+      // 
+      this.loginBtn.Location = new System.Drawing.Point(7, 61);
+      this.loginBtn.Name = "loginBtn";
+      this.loginBtn.Size = new System.Drawing.Size(75, 23);
+      this.loginBtn.TabIndex = 2;
+      this.loginBtn.Text = "Login";
+      this.loginBtn.UseVisualStyleBackColor = true;
+      this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
+      // 
+      // priceBox
+      // 
+      this.priceBox.Location = new System.Drawing.Point(7, 7);
+      this.priceBox.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+      this.priceBox.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+      this.priceBox.Name = "priceBox";
+      this.priceBox.Size = new System.Drawing.Size(120, 20);
+      this.priceBox.TabIndex = 0;
+      this.priceBox.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+      // 
+      // uploadBtn
+      // 
+      this.uploadBtn.Enabled = false;
+      this.uploadBtn.Location = new System.Drawing.Point(7, 34);
+      this.uploadBtn.Name = "uploadBtn";
+      this.uploadBtn.Size = new System.Drawing.Size(75, 23);
+      this.uploadBtn.TabIndex = 1;
+      this.uploadBtn.Text = "button1";
+      this.uploadBtn.UseVisualStyleBackColor = true;
+      // 
       // MainForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-      this.ClientSize = new System.Drawing.Size(800, 450);
+      this.ClientSize = new System.Drawing.Size(789, 450);
+      this.Controls.Add(this.tabControl1);
       this.Controls.Add(this.attr4ValueBox);
       this.Controls.Add(this.attr3ValueBox);
       this.Controls.Add(this.attr2ValueBox);
@@ -297,6 +402,11 @@
       ((System.ComponentModel.ISupportInitialize)(this.attr2ValueBox)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.attr3ValueBox)).EndInit();
       ((System.ComponentModel.ISupportInitialize)(this.attr4ValueBox)).EndInit();
+      this.tabControl1.ResumeLayout(false);
+      this.tabPage1.ResumeLayout(false);
+      this.tabPage1.PerformLayout();
+      this.tabPage2.ResumeLayout(false);
+      ((System.ComponentModel.ISupportInitialize)(this.priceBox)).EndInit();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -321,6 +431,14 @@
     private System.Windows.Forms.NumericUpDown attr2ValueBox;
     private System.Windows.Forms.NumericUpDown attr3ValueBox;
     private System.Windows.Forms.NumericUpDown attr4ValueBox;
+    private System.Windows.Forms.TabControl tabControl1;
+    private System.Windows.Forms.TabPage tabPage1;
+    private System.Windows.Forms.Button loginBtn;
+    private System.Windows.Forms.TextBox passwordBox;
+    private System.Windows.Forms.TextBox emailBox;
+    private System.Windows.Forms.TabPage tabPage2;
+    private System.Windows.Forms.Button uploadBtn;
+    private System.Windows.Forms.NumericUpDown priceBox;
   }
 }
 
