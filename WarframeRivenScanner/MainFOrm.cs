@@ -41,6 +41,7 @@ namespace WarframeRivenScanner
             };
       m_GlobalHook.OnCombination(map);
       screenForm.Hide();
+      emailBox.Text = Properties.Settings.Default.email;
     }
 
     private void StartScreenshot()
@@ -158,6 +159,8 @@ namespace WarframeRivenScanner
       {
         uploadBtn.Enabled = true;
         tabControl1.SelectedTab = tabPage2;
+        Properties.Settings.Default.email = emailBox.Text;
+        Properties.Settings.Default.Save();
       }
       else
       {
