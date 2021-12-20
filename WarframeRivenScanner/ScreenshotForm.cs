@@ -65,9 +65,9 @@ namespace WarframeRivenScanner
       bufferGraphics.DrawRectangle(outlinePen, Offset(rerollRect, position));
     }
 
-    private void pictureBox1_Click(object sender, EventArgs e)
+    private void pictureBox1_Click(object sender, MouseEventArgs e)
     {
-      var position = Cursor.Position;
+      var position = e.Location;
       {
         outputOriginalBitmap = new Bitmap(fullRect.Width, fullRect.Height, PixelFormat.Format32bppArgb);
         var g = Graphics.FromImage(outputOriginalBitmap);
@@ -98,6 +98,11 @@ namespace WarframeRivenScanner
       }
       Hide();
       parent.FinishScreenshot();
+    }
+
+    private void ScreenshotForm_Shown(object sender, EventArgs e)
+    {
+      Bounds = workingArea;
     }
   }
 }

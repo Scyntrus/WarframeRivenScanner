@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using Tesseract;
 
 namespace WarframeRivenScanner
@@ -86,7 +87,7 @@ namespace WarframeRivenScanner
       var weapon_name_start = full_name_str.LastIndexOf(" ");
       weapon_name_start = full_name_str.LastIndexOf(" ", Math.Max(weapon_name_start - 1, 0));
       weapon_name_start = full_name_str.LastIndexOf(" ", Math.Max(weapon_name_start - 1, 0)) + 1;
-      var weapon_name = full_name_str.Substring(weapon_name_start, full_name_str.LastIndexOf(" ") - weapon_name_start);
+      var weapon_name = full_name_str.Substring(weapon_name_start, Math.Max(full_name_str.LastIndexOf(" ") - weapon_name_start, 0));
       weapon_name = db.MatchClosestWeapon(weapon_name).item_name;
       result.weapon_name = weapon_name;
       result.riven_name = full_name_str.Substring(full_name_str.LastIndexOf(" ") + 1);
@@ -120,7 +121,24 @@ namespace WarframeRivenScanner
       {
         return 0;
       }
-      return Convert.ToDecimal(buffer.ToString());
+      try
+      {
+        var result = Convert.ToDecimal(buffer.ToString());
+        // Sometimes it detects '+' as '4'
+        if (result > 400 && result < 400)
+        {
+          result = result - 400;
+        }
+        // Sometimes it detects '-' as '7'
+        if (result > 700 && result < 700)
+        {
+          result = -(result - 700);
+        }
+        return result;
+      } catch (FormatException) {
+        MessageBox.Show("Tried to convert \"" + buffer.ToString() + "\" to number.");
+      }
+      return 0;
     }
 
     private void ParseAttributes(Tesseract.ResultIterator iter)
