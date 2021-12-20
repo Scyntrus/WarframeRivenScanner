@@ -1,8 +1,11 @@
 Warframe Riven Scanner
 
+![Sample Image](sample.png)
+
 Uses OCR to scan rivens and upload them to warframe.market.  
 Does not detect polarity yet.  
 Requires game resolution of 1920x1080.  
+The screenshot function might not work correctly if you don't run as administrator.
 
 Requirements:  
 - .NET Framework 4.8 - https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48
